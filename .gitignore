@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.pickle
+*.pickle
+*.pickle
