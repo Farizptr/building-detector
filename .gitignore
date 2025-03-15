@@ -12,3 +12,4 @@ __pycache__/
 *.pickle
 *.pickle
 *.pickle
+.DS_Store
