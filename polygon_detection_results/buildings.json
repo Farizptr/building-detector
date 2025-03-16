@@ -1,1160 +1,3758 @@
 [
   {
     "building_id": 1,
+    "latitude": -6.220293902191054,
+    "longitude": 106.72626321650114,
+    "confidence": 0.9304988384246826
+  },
+  {
+    "building_id": 2,
+    "latitude": -6.2209344626933305,
+    "longitude": 106.7261938889942,
+    "confidence": 0.9261185526847839
+  },
+  {
+    "building_id": 3,
+    "latitude": -6.220483083570755,
+    "longitude": 106.7263388390711,
+    "confidence": 0.9253798127174377
+  },
+  {
+    "building_id": 4,
+    "latitude": -6.220289370917333,
+    "longitude": 106.72632943181725,
+    "confidence": 0.9231270551681519
+  },
+  {
+    "building_id": 5,
+    "latitude": -6.2198483323827425,
+    "longitude": 106.7265970323433,
+    "confidence": 0.9227645397186279
+  },
+  {
+    "building_id": 6,
+    "latitude": -6.220036876388695,
+    "longitude": 106.72581921804522,
+    "confidence": 0.9223818182945251
+  },
+  {
+    "building_id": 7,
+    "latitude": -6.220942043120301,
+    "longitude": 106.72569315423175,
+    "confidence": 0.922313392162323
+  },
+  {
+    "building_id": 8,
+    "latitude": -6.220932282680785,
+    "longitude": 106.72637724259403,
+    "confidence": 0.9221229553222656
+  },
+  {
+    "building_id": 9,
+    "latitude": -6.220082592123692,
+    "longitude": 106.72624598907078,
+    "confidence": 0.9219735860824585
+  },
+  {
+    "building_id": 10,
+    "latitude": -6.220112865679338,
+    "longitude": 106.72538695476788,
+    "confidence": 0.9216545224189758
+  },
+  {
+    "building_id": 11,
+    "latitude": -6.220481611174307,
+    "longitude": 106.72626516873152,
+    "confidence": 0.9215520620346069
+  },
+  {
+    "building_id": 12,
+    "latitude": -6.220551651253393,
+    "longitude": 106.72642015687416,
+    "confidence": 0.9210704565048218
+  },
+  {
+    "building_id": 13,
+    "latitude": -6.220129952124231,
+    "longitude": 106.72557183146296,
+    "confidence": 0.9210329651832581
+  },
+  {
+    "building_id": 14,
+    "latitude": -6.220138729918443,
+    "longitude": 106.72583554448238,
+    "confidence": 0.920657753944397
+  },
+  {
+    "building_id": 15,
+    "latitude": -6.220547685559904,
+    "longitude": 106.72659239872246,
+    "confidence": 0.919800877571106
+  },
+  {
+    "building_id": 16,
+    "latitude": -6.220462154050705,
+    "longitude": 106.72575753489127,
+    "confidence": 0.9196434020996094
+  },
+  {
+    "building_id": 17,
+    "latitude": -6.220176922939984,
+    "longitude": 106.72640069129557,
+    "confidence": 0.9195219278335571
+  },
+  {
+    "building_id": 18,
+    "latitude": -6.220612984830832,
+    "longitude": 106.72627934131015,
+    "confidence": 0.9189938306808472
+  },
+  {
+    "building_id": 19,
+    "latitude": -6.220182468604493,
+    "longitude": 106.72634002890845,
+    "confidence": 0.9188960194587708
+  },
+  {
+    "building_id": 20,
+    "latitude": -6.22088690061412,
+    "longitude": 106.72657272011747,
+    "confidence": 0.9179906845092773
+  },
+  {
+    "building_id": 21,
+    "latitude": -6.22016670760731,
+    "longitude": 106.72595025614783,
+    "confidence": 0.9176758527755737
+  },
+  {
+    "building_id": 22,
+    "latitude": -6.220307063069318,
+    "longitude": 106.72534918509825,
+    "confidence": 0.9171503186225891
+  },
+  {
+    "building_id": 23,
+    "latitude": -6.22022431832743,
+    "longitude": 106.7255959105978,
+    "confidence": 0.9168352484703064
+  },
+  {
+    "building_id": 24,
+    "latitude": -6.220205869898534,
+    "longitude": 106.72535966862046,
+    "confidence": 0.9167800545692444
+  },
+  {
+    "building_id": 25,
+    "latitude": -6.220274158452823,
+    "longitude": 106.72568303811772,
+    "confidence": 0.9166353940963745
+  },
+  {
+    "building_id": 26,
+    "latitude": -6.2209294397663815,
+    "longitude": 106.72650654392783,
+    "confidence": 0.9162922501564026
+  },
+  {
+    "building_id": 27,
+    "latitude": -6.2204261950120845,
+    "longitude": 106.72661648318808,
+    "confidence": 0.9162890315055847
+  },
+  {
+    "building_id": 28,
+    "latitude": -6.220389730446209,
+    "longitude": 106.72632567739583,
+    "confidence": 0.915765106678009
+  },
+  {
+    "building_id": 29,
+    "latitude": -6.220261874506688,
+    "longitude": 106.72643445399444,
+    "confidence": 0.9150042533874512
+  },
+  {
+    "building_id": 30,
+    "latitude": -6.220334131114272,
+    "longitude": 106.7254861145625,
+    "confidence": 0.9144433736801147
+  },
+  {
+    "building_id": 31,
+    "latitude": -6.220640633164114,
+    "longitude": 106.72597586114307,
+    "confidence": 0.9142476320266724
+  },
+  {
+    "building_id": 32,
+    "latitude": -6.2202177423841345,
+    "longitude": 106.72582156131512,
+    "confidence": 0.9136126041412354
+  },
+  {
+    "building_id": 33,
+    "latitude": -6.220020291321057,
+    "longitude": 106.72592707715694,
+    "confidence": 0.9133314490318298
+  },
+  {
+    "building_id": 34,
+    "latitude": -6.220635500791023,
+    "longitude": 106.72637640886478,
+    "confidence": 0.9132267832756042
+  },
+  {
+    "building_id": 35,
+    "latitude": -6.2201918397981935,
+    "longitude": 106.72624214514144,
+    "confidence": 0.9131327271461487
+  },
+  {
+    "building_id": 36,
+    "latitude": -6.220388923514856,
+    "longitude": 106.72626621262225,
+    "confidence": 0.9129760265350342
+  },
+  {
+    "building_id": 37,
+    "latitude": -6.220232691852413,
+    "longitude": 106.725476060397,
+    "confidence": 0.9129166007041931
+  },
+  {
+    "building_id": 38,
+    "latitude": -6.219945071769404,
+    "longitude": 106.72627483525957,
+    "confidence": 0.9126279950141907
+  },
+  {
+    "building_id": 39,
+    "latitude": -6.220096851145489,
+    "longitude": 106.72570722957744,
+    "confidence": 0.9125116467475891
+  },
+  {
+    "building_id": 40,
+    "latitude": -6.220481518633322,
+    "longitude": 106.72548098602363,
+    "confidence": 0.9124000668525696
+  },
+  {
+    "building_id": 41,
+    "latitude": -6.219838494209511,
+    "longitude": 106.72534541115044,
+    "confidence": 0.9123325943946838
+  },
+  {
+    "building_id": 42,
+    "latitude": -6.220582732859267,
+    "longitude": 106.72623402746467,
+    "confidence": 0.9112710356712341
+  },
+  {
+    "building_id": 43,
+    "latitude": -6.220333366984905,
+    "longitude": 106.72584565822262,
+    "confidence": 0.910698413848877
+  },
+  {
+    "building_id": 44,
+    "latitude": -6.219946582573716,
+    "longitude": 106.72621669927139,
+    "confidence": 0.9106072783470154
+  },
+  {
+    "building_id": 45,
+    "latitude": -6.220029728365532,
+    "longitude": 106.72637361496527,
+    "confidence": 0.9102338552474976
+  },
+  {
+    "building_id": 46,
+    "latitude": -6.219857677483812,
+    "longitude": 106.72636960004183,
+    "confidence": 0.9095552563667297
+  },
+  {
+    "building_id": 47,
+    "latitude": -6.2204539697576955,
+    "longitude": 106.72567599450531,
+    "confidence": 0.9095483422279358
+  },
+  {
+    "building_id": 48,
+    "latitude": -6.220108536392745,
+    "longitude": 106.72619906821637,
+    "confidence": 0.9092640280723572
+  },
+  {
+    "building_id": 49,
+    "latitude": -6.221045436687467,
+    "longitude": 106.72662277276686,
+    "confidence": 0.9085409045219421
+  },
+  {
+    "building_id": 50,
+    "latitude": -6.21991581874309,
+    "longitude": 106.72632478735068,
+    "confidence": 0.908380925655365
+  },
+  {
+    "building_id": 51,
+    "latitude": -6.220387806147048,
+    "longitude": 106.72620656334857,
+    "confidence": 0.9083377122879028
+  },
+  {
+    "building_id": 52,
+    "latitude": -6.220489925134549,
+    "longitude": 106.72537768195497,
+    "confidence": 0.9081569910049438
+  },
+  {
+    "building_id": 53,
+    "latitude": -6.220158994054772,
+    "longitude": 106.72547112488132,
+    "confidence": 0.9081212282180786
+  },
+  {
+    "building_id": 54,
+    "latitude": -6.220311200052123,
+    "longitude": 106.72559077222104,
+    "confidence": 0.907844066619873
+  },
+  {
+    "building_id": 55,
+    "latitude": -6.2198775985253025,
+    "longitude": 106.7265062846127,
+    "confidence": 0.9065471291542053
+  },
+  {
+    "building_id": 56,
+    "latitude": -6.22083305217634,
+    "longitude": 106.72653047372933,
+    "confidence": 0.9054878354072571
+  },
+  {
+    "building_id": 57,
+    "latitude": -6.2201930638454765,
+    "longitude": 106.72629314951337,
+    "confidence": 0.9051371216773987
+  },
+  {
+    "building_id": 58,
+    "latitude": -6.2199485083121555,
+    "longitude": 106.72582770513145,
+    "confidence": 0.9047344923019409
+  },
+  {
+    "building_id": 59,
+    "latitude": -6.221034688384629,
+    "longitude": 106.72621046985569,
+    "confidence": 0.9046570658683777
+  },
+  {
+    "building_id": 60,
+    "latitude": -6.221053511981882,
+    "longitude": 106.72647137062995,
+    "confidence": 0.9015194773674011
+  },
+  {
+    "building_id": 61,
+    "latitude": -6.220391152127185,
+    "longitude": 106.72580588787241,
+    "confidence": 0.901376485824585
+  },
+  {
+    "building_id": 62,
+    "latitude": -6.220288675385064,
+    "longitude": 106.72585623540272,
+    "confidence": 0.8940831422805786
+  },
+  {
+    "building_id": 63,
+    "latitude": -6.219999966134937,
+    "longitude": 106.72629088030135,
+    "confidence": 0.8936448693275452
+  },
+  {
+    "building_id": 64,
+    "latitude": -6.221067217080072,
+    "longitude": 106.72626868016778,
+    "confidence": 0.888870358467102
+  },
+  {
+    "building_id": 65,
+    "latitude": -6.219803726018155,
+    "longitude": 106.72543490302189,
+    "confidence": 0.8848735094070435
+  },
+  {
+    "building_id": 66,
+    "latitude": -6.220644073556807,
+    "longitude": 106.72656484362506,
+    "confidence": 0.8844331502914429
+  },
+  {
+    "building_id": 67,
+    "latitude": -6.2199188612237855,
+    "longitude": 106.72592935152579,
+    "confidence": 0.878752589225769
+  },
+  {
+    "building_id": 68,
+    "latitude": -6.220171991719951,
+    "longitude": 106.7266578152612,
+    "confidence": 0.8770267963409424
+  },
+  {
+    "building_id": 69,
+    "latitude": -6.219780231187331,
+    "longitude": 106.72556091307229,
+    "confidence": 0.8767352104187012
+  },
+  {
+    "building_id": 70,
+    "latitude": -6.220077903577085,
+    "longitude": 106.72543173968734,
+    "confidence": 0.8749196529388428
+  },
+  {
+    "building_id": 71,
+    "latitude": -6.220561388908582,
+    "longitude": 106.72601262628632,
+    "confidence": 0.8672681450843811
+  },
+  {
+    "building_id": 72,
+    "latitude": -6.220695160696897,
+    "longitude": 106.72628376497414,
+    "confidence": 0.8592499494552612
+  },
+  {
+    "building_id": 73,
+    "latitude": -6.219778727069811,
+    "longitude": 106.72582262390961,
+    "confidence": 0.8589668869972229
+  },
+  {
+    "building_id": 74,
+    "latitude": -6.220858667700105,
+    "longitude": 106.72662243397099,
+    "confidence": 0.8493384718894958
+  },
+  {
+    "building_id": 75,
+    "latitude": -6.220180336967955,
+    "longitude": 106.72656887606536,
+    "confidence": 0.8448895812034607
+  },
+  {
+    "building_id": 76,
+    "latitude": -6.220014237627085,
+    "longitude": 106.72619513817608,
+    "confidence": 0.8438745141029358
+  },
+  {
+    "building_id": 77,
+    "latitude": -6.220474852691934,
+    "longitude": 106.72617925459235,
+    "confidence": 0.8434255719184875
+  },
+  {
+    "building_id": 78,
+    "latitude": -6.220373351607245,
+    "longitude": 106.72642107131196,
+    "confidence": 0.8432708382606506
+  },
+  {
+    "building_id": 79,
+    "latitude": -6.220189718536663,
+    "longitude": 106.72617521016036,
+    "confidence": 0.8412846922874451
+  },
+  {
+    "building_id": 80,
+    "latitude": -6.220291661311806,
+    "longitude": 106.72617781149711,
+    "confidence": 0.8406727313995361
+  },
+  {
+    "building_id": 81,
+    "latitude": -6.219777068798011,
+    "longitude": 106.72533419810037,
+    "confidence": 0.8370527029037476
+  },
+  {
+    "building_id": 82,
+    "latitude": -6.220483635765194,
+    "longitude": 106.72643278710893,
+    "confidence": 0.8340769410133362
+  },
+  {
+    "building_id": 83,
+    "latitude": -6.21992070291959,
+    "longitude": 106.72536341817865,
+    "confidence": 0.8339683413505554
+  },
+  {
+    "building_id": 84,
+    "latitude": -6.2198648888173995,
+    "longitude": 106.72622415879687,
+    "confidence": 0.832304835319519
+  },
+  {
+    "building_id": 85,
+    "latitude": -6.219809267420773,
+    "longitude": 106.72567889477477,
+    "confidence": 0.8314580917358398
+  },
+  {
+    "building_id": 86,
+    "latitude": -6.219959082853984,
+    "longitude": 106.72615033825423,
+    "confidence": 0.8312892317771912
+  },
+  {
+    "building_id": 87,
+    "latitude": -6.220413779913668,
+    "longitude": 106.72606067513698,
+    "confidence": 0.8261866569519043
+  },
+  {
+    "building_id": 88,
+    "latitude": -6.220577688043089,
+    "longitude": 106.7261729102529,
+    "confidence": 0.8228086233139038
+  },
+  {
+    "building_id": 89,
+    "latitude": -6.22068938617196,
+    "longitude": 106.72662207589838,
+    "confidence": 0.8123851418495178
+  },
+  {
+    "building_id": 90,
+    "latitude": -6.21992529949482,
+    "longitude": 106.72604396850602,
+    "confidence": 0.8115912675857544
+  },
+  {
+    "building_id": 91,
+    "latitude": -6.22002855115835,
+    "longitude": 106.72555286993429,
+    "confidence": 0.8086441159248352
+  },
+  {
+    "building_id": 92,
+    "latitude": -6.220069840274956,
+    "longitude": 106.72666859140918,
+    "confidence": 0.8075299263000488
+  },
+  {
+    "building_id": 93,
+    "latitude": -6.2200685864961605,
+    "longitude": 106.72548586739765,
+    "confidence": 0.8069589138031006
+  },
+  {
+    "building_id": 94,
+    "latitude": -6.220406761669623,
+    "longitude": 106.72653701190029,
+    "confidence": 0.8056823015213013
+  },
+  {
+    "building_id": 95,
+    "latitude": -6.2198643545935886,
+    "longitude": 106.72556250365915,
+    "confidence": 0.8025302290916443
+  },
+  {
+    "building_id": 96,
+    "latitude": -6.220103719714814,
+    "longitude": 106.72614888026146,
+    "confidence": 0.7918656468391418
+  },
+  {
+    "building_id": 97,
+    "latitude": -6.219767806033294,
+    "longitude": 106.72623697545532,
+    "confidence": 0.7820936441421509
+  },
+  {
+    "building_id": 98,
+    "latitude": -6.2208028696562865,
+    "longitude": 106.72629477768169,
+    "confidence": 0.7767560482025146
+  },
+  {
+    "building_id": 99,
+    "latitude": -6.220546926434951,
+    "longitude": 106.72653485560659,
+    "confidence": 0.7597323060035706
+  },
+  {
+    "building_id": 100,
+    "latitude": -6.220316066519912,
+    "longitude": 106.72661396509739,
+    "confidence": 0.7517337203025818
+  },
+  {
+    "building_id": 101,
+    "latitude": -6.220386619429444,
+    "longitude": 106.72615868066259,
+    "confidence": 0.7483395934104919
+  },
+  {
+    "building_id": 102,
+    "latitude": -6.220227411747372,
+    "longitude": 106.72531986976729,
+    "confidence": 0.7320019602775574
+  },
+  {
+    "building_id": 103,
+    "latitude": -6.219751319758219,
+    "longitude": 106.72661508016063,
+    "confidence": 0.7214905023574829
+  },
+  {
+    "building_id": 104,
+    "latitude": -6.21976223080129,
+    "longitude": 106.72630162657242,
+    "confidence": 0.7095113396644592
+  },
+  {
+    "building_id": 105,
+    "latitude": -6.219904413600654,
+    "longitude": 106.72613298705983,
+    "confidence": 0.6665005683898926
+  },
+  {
+    "building_id": 106,
+    "latitude": -6.219781252811634,
+    "longitude": 106.72613733930575,
+    "confidence": 0.6457668542861938
+  },
+  {
+    "building_id": 107,
+    "latitude": -6.220089729100526,
+    "longitude": 106.72533039051956,
+    "confidence": 0.6360474228858948
+  },
+  {
+    "building_id": 108,
+    "latitude": -6.219858191908653,
+    "longitude": 106.72613614967304,
+    "confidence": 0.6298424601554871
+  },
+  {
+    "building_id": 109,
+    "latitude": -6.219747116303919,
+    "longitude": 106.72637492279591,
+    "confidence": 0.5947978496551514
+  },
+  {
+    "building_id": 110,
+    "latitude": -6.219960137534379,
+    "longitude": 106.72567582756301,
+    "confidence": 0.5669464468955994
+  },
+  {
+    "building_id": 111,
+    "latitude": -6.220602834942069,
+    "longitude": 106.72651873018367,
+    "confidence": 0.3024746775627136
+  },
+  {
+    "building_id": 112,
+    "latitude": -6.219746224766935,
+    "longitude": 106.72616970090075,
+    "confidence": 0.2686104476451874
+  },
+  {
+    "building_id": 113,
+    "latitude": -6.22133713663966,
+    "longitude": 106.72560796180392,
+    "confidence": 0.9298442006111145
+  },
+  {
+    "building_id": 114,
+    "latitude": -6.222385352584924,
+    "longitude": 106.72659678898981,
+    "confidence": 0.9261820912361145
+  },
+  {
+    "building_id": 115,
+    "latitude": -6.2219833403313896,
+    "longitude": 106.72653771543992,
+    "confidence": 0.9247034192085266
+  },
+  {
+    "building_id": 116,
+    "latitude": -6.222264374632509,
+    "longitude": 106.72656558760082,
+    "confidence": 0.9244812726974487
+  },
+  {
+    "building_id": 117,
+    "latitude": -6.221802762904652,
+    "longitude": 106.72622413538647,
+    "confidence": 0.919795036315918
+  },
+  {
+    "building_id": 118,
+    "latitude": -6.2214752205423025,
+    "longitude": 106.7263920235564,
+    "confidence": 0.9187847971916199
+  },
+  {
+    "building_id": 119,
+    "latitude": -6.221707692597361,
+    "longitude": 106.7255357155284,
+    "confidence": 0.9175106287002563
+  },
+  {
+    "building_id": 120,
+    "latitude": -6.222360066075559,
+    "longitude": 106.72602878467615,
+    "confidence": 0.9172755479812622
+  },
+  {
+    "building_id": 121,
+    "latitude": -6.222064938362139,
+    "longitude": 106.72654827897077,
+    "confidence": 0.9172165989875793
+  },
+  {
+    "building_id": 122,
+    "latitude": -6.222138549896719,
+    "longitude": 106.72654533761033,
+    "confidence": 0.9167275428771973
+  },
+  {
+    "building_id": 123,
+    "latitude": -6.221437653068458,
+    "longitude": 106.7256072609348,
+    "confidence": 0.9167020916938782
+  },
+  {
+    "building_id": 124,
+    "latitude": -6.222331960419913,
+    "longitude": 106.72570827675258,
+    "confidence": 0.9162644147872925
+  },
+  {
+    "building_id": 125,
+    "latitude": -6.221358949595849,
+    "longitude": 106.72618294377571,
+    "confidence": 0.9160436987876892
+  },
+  {
+    "building_id": 126,
+    "latitude": -6.222054669004391,
+    "longitude": 106.7263559330786,
+    "confidence": 0.9155682921409607
+  },
+  {
+    "building_id": 127,
+    "latitude": -6.221713603345014,
+    "longitude": 106.72570848137866,
+    "confidence": 0.9154113531112671
+  },
+  {
+    "building_id": 128,
+    "latitude": -6.22154013045985,
+    "longitude": 106.72536802067327,
+    "confidence": 0.9148955941200256
+  },
+  {
+    "building_id": 129,
+    "latitude": -6.221377527491152,
+    "longitude": 106.72569016450552,
+    "confidence": 0.9137859344482422
+  },
+  {
+    "building_id": 130,
+    "latitude": -6.221344329943248,
+    "longitude": 106.7266214713618,
+    "confidence": 0.9122076630592346
+  },
+  {
+    "building_id": 131,
+    "latitude": -6.221402040372907,
+    "longitude": 106.72575899231106,
+    "confidence": 0.911477267742157
+  },
+  {
+    "building_id": 132,
+    "latitude": -6.221446989135806,
+    "longitude": 106.72538673185755,
+    "confidence": 0.9104186296463013
+  },
+  {
+    "building_id": 133,
+    "latitude": -6.221805360290842,
+    "longitude": 106.7259547208414,
+    "confidence": 0.9103782773017883
+  },
+  {
+    "building_id": 134,
+    "latitude": -6.22153675851027,
+    "longitude": 106.72632109452479,
+    "confidence": 0.9099322557449341
+  },
+  {
+    "building_id": 135,
+    "latitude": -6.221689256747728,
+    "longitude": 106.72565165549258,
+    "confidence": 0.909904420375824
+  },
+  {
+    "building_id": 136,
+    "latitude": -6.221583582621843,
+    "longitude": 106.72536708897184,
+    "confidence": 0.9094577431678772
+  },
+  {
+    "building_id": 137,
+    "latitude": -6.2216699375601685,
+    "longitude": 106.72570592279044,
+    "confidence": 0.9094256162643433
+  },
+  {
+    "building_id": 138,
+    "latitude": -6.22205824776189,
+    "longitude": 106.72646993044054,
+    "confidence": 0.9074217677116394
+  },
+  {
+    "building_id": 139,
+    "latitude": -6.222193498552713,
+    "longitude": 106.7265586684789,
+    "confidence": 0.9064350724220276
+  },
+  {
+    "building_id": 140,
+    "latitude": -6.2214618397384935,
+    "longitude": 106.72623754192955,
+    "confidence": 0.9042170643806458
+  },
+  {
+    "building_id": 141,
+    "latitude": -6.2224528997204445,
+    "longitude": 106.72601184932319,
+    "confidence": 0.902334988117218
+  },
+  {
+    "building_id": 142,
+    "latitude": -6.2221387699683355,
+    "longitude": 106.7266485133132,
+    "confidence": 0.9013665318489075
+  },
+  {
+    "building_id": 143,
+    "latitude": -6.222452790111841,
+    "longitude": 106.72623790131183,
+    "confidence": 0.9010142087936401
+  },
+  {
+    "building_id": 144,
+    "latitude": -6.222256337644775,
+    "longitude": 106.72665184290963,
+    "confidence": 0.8981072306632996
+  },
+  {
+    "building_id": 145,
+    "latitude": -6.221498072511962,
+    "longitude": 106.72539318039526,
+    "confidence": 0.8978224396705627
+  },
+  {
+    "building_id": 146,
+    "latitude": -6.222329518109146,
+    "longitude": 106.72553690323753,
+    "confidence": 0.8972923755645752
+  },
+  {
+    "building_id": 147,
+    "latitude": -6.2220309152252735,
+    "longitude": 106.72663741007455,
+    "confidence": 0.8946535587310791
+  },
+  {
+    "building_id": 148,
+    "latitude": -6.222257263052225,
+    "longitude": 106.72607378864086,
+    "confidence": 0.8932378888130188
+  },
+  {
+    "building_id": 149,
+    "latitude": -6.221561267343748,
+    "longitude": 106.72621416505535,
+    "confidence": 0.8919947743415833
+  },
+  {
+    "building_id": 150,
+    "latitude": -6.222458463842081,
+    "longitude": 106.72612431264952,
+    "confidence": 0.887560248374939
+  },
+  {
+    "building_id": 151,
+    "latitude": -6.221498306477913,
+    "longitude": 106.72664704009549,
+    "confidence": 0.883786678314209
+  },
+  {
+    "building_id": 152,
+    "latitude": -6.221831166647688,
+    "longitude": 106.7253321735106,
+    "confidence": 0.8831620812416077
+  },
+  {
+    "building_id": 153,
+    "latitude": -6.222455180303596,
+    "longitude": 106.72643340777086,
+    "confidence": 0.8777419328689575
+  },
+  {
+    "building_id": 154,
+    "latitude": -6.221510739466352,
+    "longitude": 106.72650668013375,
+    "confidence": 0.8758947849273682
+  },
+  {
+    "building_id": 155,
+    "latitude": -6.221879656268898,
+    "longitude": 106.72564605302114,
+    "confidence": 0.8742420673370361
+  },
+  {
+    "building_id": 156,
+    "latitude": -6.221629674198861,
+    "longitude": 106.7259361232891,
+    "confidence": 0.8737142086029053
+  },
+  {
+    "building_id": 157,
+    "latitude": -6.221541757704122,
+    "longitude": 106.72616892786664,
+    "confidence": 0.8722792863845825
+  },
+  {
+    "building_id": 158,
+    "latitude": -6.222369617891616,
+    "longitude": 106.72666055967966,
+    "confidence": 0.8679630756378174
+  },
+  {
+    "building_id": 159,
+    "latitude": -6.221472662133485,
+    "longitude": 106.7264373395301,
+    "confidence": 0.8652491569519043
+  },
+  {
+    "building_id": 160,
+    "latitude": -6.221721844353661,
+    "longitude": 106.72662334288361,
+    "confidence": 0.8482486009597778
+  },
+  {
+    "building_id": 161,
+    "latitude": -6.222149624881766,
+    "longitude": 106.72621352118767,
+    "confidence": 0.8477056622505188
+  },
+  {
+    "building_id": 162,
+    "latitude": -6.221937658321927,
+    "longitude": 106.72624853626075,
+    "confidence": 0.8476448655128479
+  },
+  {
+    "building_id": 163,
+    "latitude": -6.221783331423201,
+    "longitude": 106.7263217460868,
+    "confidence": 0.8452381491661072
+  },
+  {
+    "building_id": 164,
+    "latitude": -6.2220646489612506,
+    "longitude": 106.72621871768115,
+    "confidence": 0.8430859446525574
+  },
+  {
+    "building_id": 165,
+    "latitude": -6.221275918938144,
+    "longitude": 106.7266761846031,
+    "confidence": 0.8379339575767517
+  },
+  {
+    "building_id": 166,
+    "latitude": -6.221815235134924,
+    "longitude": 106.72609556644602,
+    "confidence": 0.8340377807617188
+  },
+  {
+    "building_id": 167,
+    "latitude": -6.221149353099797,
+    "longitude": 106.72626727988245,
+    "confidence": 0.8306645750999451
+  },
+  {
+    "building_id": 168,
+    "latitude": -6.221803681944714,
+    "longitude": 106.72667709052803,
+    "confidence": 0.8269097208976746
+  },
+  {
+    "building_id": 169,
+    "latitude": -6.222434991163867,
+    "longitude": 106.72666680681687,
+    "confidence": 0.8259679079055786
+  },
+  {
+    "building_id": 170,
+    "latitude": -6.222415334077478,
+    "longitude": 106.72532243342243,
+    "confidence": 0.8212183713912964
+  },
+  {
+    "building_id": 171,
+    "latitude": -6.222149700883574,
+    "longitude": 106.72575546607959,
+    "confidence": 0.8208742737770081
+  },
+  {
+    "building_id": 172,
+    "latitude": -6.221527055606037,
+    "longitude": 106.72532085511158,
+    "confidence": 0.8189190030097961
+  },
+  {
+    "building_id": 173,
+    "latitude": -6.2224640703994165,
+    "longitude": 106.72652114206812,
+    "confidence": 0.8188206553459167
+  },
+  {
+    "building_id": 174,
+    "latitude": -6.221809841101916,
+    "longitude": 106.72642077061937,
+    "confidence": 0.8178628087043762
+  },
+  {
+    "building_id": 175,
+    "latitude": -6.222126393106499,
+    "longitude": 106.7254413956664,
+    "confidence": 0.8175395131111145
+  },
+  {
+    "building_id": 176,
+    "latitude": -6.221939675217865,
+    "longitude": 106.72645719993398,
+    "confidence": 0.8167828917503357
+  },
+  {
+    "building_id": 177,
+    "latitude": -6.2220369261626765,
+    "longitude": 106.72610466232527,
+    "confidence": 0.8100681304931641
+  },
+  {
+    "building_id": 178,
+    "latitude": -6.222131753837859,
+    "longitude": 106.72602330181462,
+    "confidence": 0.8064761757850647
+  },
+  {
+    "building_id": 179,
+    "latitude": -6.222454638892431,
+    "longitude": 106.72584790701194,
+    "confidence": 0.7991191744804382
+  },
+  {
+    "building_id": 180,
+    "latitude": -6.221916378141259,
+    "longitude": 106.72610208370315,
+    "confidence": 0.796951413154602
+  },
+  {
+    "building_id": 181,
+    "latitude": -6.221934401921134,
+    "longitude": 106.72637696396123,
+    "confidence": 0.7869971990585327
+  },
+  {
+    "building_id": 182,
+    "latitude": -6.2219375628314335,
+    "longitude": 106.72659964984632,
+    "confidence": 0.778174638748169
+  },
+  {
+    "building_id": 183,
+    "latitude": -6.222248995170348,
+    "longitude": 106.7259504326671,
+    "confidence": 0.772357165813446
+  },
+  {
+    "building_id": 184,
+    "latitude": -6.221868117868118,
+    "longitude": 106.72590852100257,
+    "confidence": 0.7706232070922852
+  },
+  {
+    "building_id": 185,
+    "latitude": -6.221819044257644,
+    "longitude": 106.72662425400631,
+    "confidence": 0.768541157245636
+  },
+  {
+    "building_id": 186,
+    "latitude": -6.222115311611661,
+    "longitude": 106.72610812861876,
+    "confidence": 0.7679315209388733
+  },
+  {
+    "building_id": 187,
+    "latitude": -6.222202310856533,
+    "longitude": 106.7260645002807,
+    "confidence": 0.7529212236404419
+  },
+  {
+    "building_id": 188,
+    "latitude": -6.222141282951019,
+    "longitude": 106.72589274569191,
+    "confidence": 0.7284442782402039
+  },
+  {
+    "building_id": 189,
+    "latitude": -6.221791233536207,
+    "longitude": 106.72650554149641,
+    "confidence": 0.7248900532722473
+  },
+  {
+    "building_id": 190,
+    "latitude": -6.221716693359625,
+    "longitude": 106.72619461205613,
+    "confidence": 0.7206224799156189
+  },
+  {
+    "building_id": 191,
+    "latitude": -6.221914966167632,
+    "longitude": 106.72653085459842,
+    "confidence": 0.7093781232833862
+  },
+  {
+    "building_id": 192,
+    "latitude": -6.221475543692387,
+    "longitude": 106.72652806119004,
+    "confidence": 0.7007384300231934
+  },
+  {
+    "building_id": 193,
+    "latitude": -6.22193038017237,
+    "longitude": 106.72664711028574,
+    "confidence": 0.6347926259040833
+  },
+  {
+    "building_id": 194,
+    "latitude": -6.221364422376983,
+    "longitude": 106.72667885240571,
+    "confidence": 0.6331036686897278
+  },
+  {
+    "building_id": 195,
+    "latitude": -6.222002390623902,
+    "longitude": 106.7261999955872,
+    "confidence": 0.6019336581230164
+  },
+  {
+    "building_id": 196,
+    "latitude": -6.221511714490614,
+    "longitude": 106.72543725160722,
+    "confidence": 0.5640984177589417
+  },
+  {
+    "building_id": 197,
+    "latitude": -6.219891498650719,
+    "longitude": 106.72686501703822,
+    "confidence": 0.926628053188324
+  },
+  {
+    "building_id": 198,
+    "latitude": -6.219904859654713,
+    "longitude": 106.72680258498957,
+    "confidence": 0.9261327981948853
+  },
+  {
+    "building_id": 199,
+    "latitude": -6.220090556364857,
+    "longitude": 106.72794477095522,
+    "confidence": 0.9256366491317749
+  },
+  {
+    "building_id": 200,
+    "latitude": -6.2202217073859565,
+    "longitude": 106.72790886280836,
+    "confidence": 0.9252541065216064
+  },
+  {
+    "building_id": 201,
+    "latitude": -6.2199199098978655,
+    "longitude": 106.72737886901359,
+    "confidence": 0.922839343547821
+  },
+  {
+    "building_id": 202,
+    "latitude": -6.220095802354436,
+    "longitude": 106.72734959104218,
+    "confidence": 0.9228196740150452
+  },
+  {
+    "building_id": 203,
+    "latitude": -6.220819046528467,
+    "longitude": 106.72777537334696,
+    "confidence": 0.9224584102630615
+  },
+  {
+    "building_id": 204,
+    "latitude": -6.220534383744303,
+    "longitude": 106.72736054201096,
+    "confidence": 0.9219990372657776
+  },
+  {
+    "building_id": 205,
+    "latitude": -6.220827458746117,
+    "longitude": 106.72767662982096,
+    "confidence": 0.9218880534172058
+  },
+  {
+    "building_id": 206,
+    "latitude": -6.220574316328867,
+    "longitude": 106.72766709340067,
+    "confidence": 0.9214751720428467
+  },
+  {
+    "building_id": 207,
+    "latitude": -6.220299831059463,
+    "longitude": 106.72784177795165,
+    "confidence": 0.9205886125564575
+  },
+  {
+    "building_id": 208,
+    "latitude": -6.220216412816937,
+    "longitude": 106.72784162525204,
+    "confidence": 0.9203340411186218
+  },
+  {
+    "building_id": 209,
+    "latitude": -6.219870544744319,
+    "longitude": 106.72800079288663,
+    "confidence": 0.9203312993049622
+  },
+  {
+    "building_id": 210,
+    "latitude": -6.219889721867361,
+    "longitude": 106.72789370400551,
+    "confidence": 0.9202754497528076
+  },
+  {
+    "building_id": 211,
+    "latitude": -6.220425991906084,
+    "longitude": 106.72765425513262,
+    "confidence": 0.9200812578201294
+  },
+  {
+    "building_id": 212,
+    "latitude": -6.2203953217200585,
+    "longitude": 106.72757131722392,
+    "confidence": 0.9197319149971008
+  },
+  {
+    "building_id": 213,
+    "latitude": -6.21998184761089,
+    "longitude": 106.72723885104006,
+    "confidence": 0.919522225856781
+  },
+  {
+    "building_id": 214,
+    "latitude": -6.220575341745642,
+    "longitude": 106.7272638206191,
+    "confidence": 0.9192591905593872
+  },
+  {
+    "building_id": 215,
+    "latitude": -6.2204137809511675,
+    "longitude": 106.72772419278317,
+    "confidence": 0.9185990691184998
+  },
+  {
+    "building_id": 216,
+    "latitude": -6.220382333758562,
+    "longitude": 106.72740284688416,
+    "confidence": 0.9182579517364502
+  },
+  {
+    "building_id": 217,
+    "latitude": -6.220376075371823,
+    "longitude": 106.72785234504317,
+    "confidence": 0.9180566072463989
+  },
+  {
+    "building_id": 218,
+    "latitude": -6.219988046941467,
+    "longitude": 106.72684049973611,
+    "confidence": 0.9178851842880249
+  },
+  {
+    "building_id": 219,
+    "latitude": -6.220100799231982,
+    "longitude": 106.72764164012278,
+    "confidence": 0.9177873134613037
+  },
+  {
+    "building_id": 220,
+    "latitude": -6.22053484528967,
+    "longitude": 106.72792688832033,
+    "confidence": 0.9170387983322144
+  },
+  {
+    "building_id": 221,
+    "latitude": -6.2203155393475456,
+    "longitude": 106.72772728082691,
+    "confidence": 0.9170109629631042
+  },
+  {
+    "building_id": 222,
+    "latitude": -6.220860919442594,
+    "longitude": 106.72746460724738,
+    "confidence": 0.9169492125511169
+  },
+  {
+    "building_id": 223,
+    "latitude": -6.220858036492873,
+    "longitude": 106.7275713218487,
+    "confidence": 0.9168528914451599
+  },
+  {
+    "building_id": 224,
+    "latitude": -6.220110646770692,
+    "longitude": 106.72770160871096,
+    "confidence": 0.9168470501899719
+  },
+  {
+    "building_id": 225,
+    "latitude": -6.219945307841478,
+    "longitude": 106.72749916798693,
+    "confidence": 0.9167983531951904
+  },
+  {
+    "building_id": 226,
+    "latitude": -6.220613983069159,
+    "longitude": 106.7273772276053,
+    "confidence": 0.9167425632476807
+  },
+  {
+    "building_id": 227,
+    "latitude": -6.219828158875144,
+    "longitude": 106.72679688280397,
+    "confidence": 0.9166778326034546
+  },
+  {
+    "building_id": 228,
+    "latitude": -6.220088619768261,
+    "longitude": 106.72747293238444,
+    "confidence": 0.9163227081298828
+  },
+  {
+    "building_id": 229,
+    "latitude": -6.22078176490035,
+    "longitude": 106.72796868025216,
+    "confidence": 0.9163224101066589
+  },
+  {
+    "building_id": 230,
+    "latitude": -6.220326003354875,
+    "longitude": 106.72790926561447,
+    "confidence": 0.916266143321991
+  },
+  {
+    "building_id": 231,
+    "latitude": -6.2205686380677125,
+    "longitude": 106.72776803357465,
+    "confidence": 0.9155706763267517
+  },
+  {
+    "building_id": 232,
+    "latitude": -6.220590029051756,
+    "longitude": 106.72754928018549,
+    "confidence": 0.9151477217674255
+  },
+  {
+    "building_id": 233,
+    "latitude": -6.220402111185048,
+    "longitude": 106.7268378779869,
+    "confidence": 0.9149817824363708
+  },
+  {
+    "building_id": 234,
+    "latitude": -6.220063637984451,
+    "longitude": 106.72685888596561,
+    "confidence": 0.9147095084190369
+  },
+  {
+    "building_id": 235,
+    "latitude": -6.220560670836105,
+    "longitude": 106.72745423030392,
+    "confidence": 0.9143819808959961
+  },
+  {
+    "building_id": 236,
+    "latitude": -6.220386222717693,
+    "longitude": 106.7279988242035,
+    "confidence": 0.9132719039916992
+  },
+  {
+    "building_id": 237,
+    "latitude": -6.219935165983173,
+    "longitude": 106.72720531804543,
+    "confidence": 0.9130892753601074
+  },
+  {
+    "building_id": 238,
+    "latitude": -6.220909743936266,
+    "longitude": 106.72724516992275,
+    "confidence": 0.9117692708969116
+  },
+  {
+    "building_id": 239,
+    "latitude": -6.220077779799194,
+    "longitude": 106.72776678664377,
+    "confidence": 0.9113526344299316
+  },
+  {
+    "building_id": 240,
+    "latitude": -6.219882109814423,
+    "longitude": 106.72780669985059,
+    "confidence": 0.9110298752784729
+  },
+  {
+    "building_id": 241,
+    "latitude": -6.220075143032092,
+    "longitude": 106.72723210497907,
+    "confidence": 0.909119188785553
+  },
+  {
+    "building_id": 242,
+    "latitude": -6.220553906128728,
+    "longitude": 106.72684196883552,
+    "confidence": 0.9090911149978638
+  },
+  {
+    "building_id": 243,
+    "latitude": -6.220853078419884,
+    "longitude": 106.72736307563355,
+    "confidence": 0.9090003371238708
+  },
+  {
+    "building_id": 244,
+    "latitude": -6.221034434135952,
+    "longitude": 106.72757698937403,
+    "confidence": 0.9089217782020569
+  },
+  {
+    "building_id": 245,
+    "latitude": -6.22008882770576,
+    "longitude": 106.72756460633991,
+    "confidence": 0.9088752865791321
+  },
+  {
+    "building_id": 246,
+    "latitude": -6.220173840952892,
+    "longitude": 106.72724010740467,
+    "confidence": 0.9085654616355896
+  },
+  {
+    "building_id": 247,
+    "latitude": -6.219851459137477,
+    "longitude": 106.72750235896274,
+    "confidence": 0.9085356593132019
+  },
+  {
+    "building_id": 248,
+    "latitude": -6.22031300339092,
+    "longitude": 106.72778716187167,
+    "confidence": 0.908308744430542
+  },
+  {
+    "building_id": 249,
+    "latitude": -6.22016802867107,
+    "longitude": 106.72672960863629,
+    "confidence": 0.9080693125724792
+  },
+  {
+    "building_id": 250,
+    "latitude": -6.219857696311396,
+    "longitude": 106.72722858902034,
+    "confidence": 0.9075367450714111
+  },
+  {
+    "building_id": 251,
+    "latitude": -6.221018276874567,
+    "longitude": 106.72727250652997,
+    "confidence": 0.9066650867462158
+  },
+  {
+    "building_id": 252,
+    "latitude": -6.2209065033539845,
+    "longitude": 106.72729417381106,
+    "confidence": 0.9061224460601807
+  },
+  {
+    "building_id": 253,
+    "latitude": -6.220932846999741,
+    "longitude": 106.72735100679802,
+    "confidence": 0.9060598015785217
+  },
+  {
+    "building_id": 254,
+    "latitude": -6.220394619454208,
+    "longitude": 106.72777929548829,
+    "confidence": 0.9048402309417725
+  },
+  {
+    "building_id": 255,
+    "latitude": -6.221003579681682,
+    "longitude": 106.72793733819617,
+    "confidence": 0.9047990441322327
+  },
+  {
+    "building_id": 256,
+    "latitude": -6.221049317061789,
+    "longitude": 106.72742343704158,
+    "confidence": 0.9047476649284363
+  },
+  {
+    "building_id": 257,
+    "latitude": -6.220995310110192,
+    "longitude": 106.72774586278592,
+    "confidence": 0.9046236872673035
+  },
+  {
+    "building_id": 258,
+    "latitude": -6.220084029245118,
+    "longitude": 106.72674465756543,
+    "confidence": 0.9033483266830444
+  },
+  {
+    "building_id": 259,
+    "latitude": -6.220234559943453,
+    "longitude": 106.72774419454981,
+    "confidence": 0.9001897573471069
+  },
+  {
+    "building_id": 260,
+    "latitude": -6.220290221606799,
+    "longitude": 106.72766033319931,
+    "confidence": 0.8995962142944336
+  },
+  {
+    "building_id": 261,
+    "latitude": -6.221084396991563,
+    "longitude": 106.72766642804618,
+    "confidence": 0.8994666934013367
+  },
+  {
+    "building_id": 262,
+    "latitude": -6.221043538956458,
+    "longitude": 106.72671032040716,
+    "confidence": 0.8964371681213379
+  },
+  {
+    "building_id": 263,
+    "latitude": -6.220879028954627,
+    "longitude": 106.72795401007988,
+    "confidence": 0.8955414891242981
+  },
+  {
+    "building_id": 264,
+    "latitude": -6.220616526695153,
+    "longitude": 106.7268696402482,
+    "confidence": 0.8920172452926636
+  },
+  {
+    "building_id": 265,
+    "latitude": -6.221007683057604,
+    "longitude": 106.72744188874958,
+    "confidence": 0.8895861506462097
+  },
+  {
+    "building_id": 266,
+    "latitude": -6.220642664956475,
+    "longitude": 106.72798648995467,
+    "confidence": 0.8849979639053345
+  },
+  {
+    "building_id": 267,
+    "latitude": -6.220481160044633,
+    "longitude": 106.72685599508128,
+    "confidence": 0.8819825053215027
+  },
+  {
+    "building_id": 268,
+    "latitude": -6.2209894420881415,
+    "longitude": 106.7280346798816,
+    "confidence": 0.8771648406982422
+  },
+  {
+    "building_id": 269,
+    "latitude": -6.220462216015937,
+    "longitude": 106.72721579491281,
+    "confidence": 0.8761132955551147
+  },
+  {
+    "building_id": 270,
+    "latitude": -6.220883279981125,
+    "longitude": 106.72670062928029,
+    "confidence": 0.867220401763916
+  },
+  {
+    "building_id": 271,
+    "latitude": -6.221090782909503,
+    "longitude": 106.7274830532051,
+    "confidence": 0.8650802373886108
+  },
+  {
+    "building_id": 272,
+    "latitude": -6.220579138468935,
+    "longitude": 106.72803564601054,
+    "confidence": 0.8620573878288269
+  },
+  {
+    "building_id": 273,
+    "latitude": -6.220354345409886,
+    "longitude": 106.72730178669099,
+    "confidence": 0.8615899085998535
+  },
+  {
+    "building_id": 274,
+    "latitude": -6.22035074446906,
+    "longitude": 106.7274775486112,
+    "confidence": 0.8611561059951782
+  },
+  {
+    "building_id": 275,
+    "latitude": -6.221092855428848,
+    "longitude": 106.72739240934789,
+    "confidence": 0.8591616749763489
+  },
+  {
+    "building_id": 276,
+    "latitude": -6.220805561217659,
+    "longitude": 106.72726824657502,
+    "confidence": 0.8561835289001465
+  },
+  {
+    "building_id": 277,
+    "latitude": -6.219784975241229,
+    "longitude": 106.72780060750028,
+    "confidence": 0.8555450439453125
+  },
+  {
+    "building_id": 278,
+    "latitude": -6.220178427539636,
+    "longitude": 106.72683643635224,
+    "confidence": 0.8554253578186035
+  },
+  {
+    "building_id": 279,
+    "latitude": -6.220350611282463,
+    "longitude": 106.72723362043371,
+    "confidence": 0.8549445271492004
+  },
+  {
+    "building_id": 280,
+    "latitude": -6.220070402061189,
+    "longitude": 106.72670245057745,
+    "confidence": 0.8529804348945618
+  },
+  {
+    "building_id": 281,
+    "latitude": -6.220684053052674,
+    "longitude": 106.72684790223713,
+    "confidence": 0.838334321975708
+  },
+  {
+    "building_id": 282,
+    "latitude": -6.2203213445499514,
+    "longitude": 106.72682719497914,
+    "confidence": 0.834210216999054
+  },
+  {
+    "building_id": 283,
+    "latitude": -6.221092042882787,
+    "longitude": 106.72796357171137,
+    "confidence": 0.8335067629814148
+  },
+  {
+    "building_id": 284,
+    "latitude": -6.22075818466797,
+    "longitude": 106.72787635645363,
+    "confidence": 0.8181638717651367
+  },
+  {
+    "building_id": 285,
+    "latitude": -6.220763555910318,
+    "longitude": 106.72803956978896,
+    "confidence": 0.8152728080749512
+  },
+  {
+    "building_id": 286,
+    "latitude": -6.2210834012350995,
+    "longitude": 106.72804454850848,
+    "confidence": 0.8026884198188782
+  },
+  {
+    "building_id": 287,
+    "latitude": -6.219750855639061,
+    "longitude": 106.72670368572997,
+    "confidence": 0.7969021201133728
+  },
+  {
+    "building_id": 288,
+    "latitude": -6.220172100291338,
+    "longitude": 106.72669255773711,
+    "confidence": 0.7830776572227478
+  },
+  {
+    "building_id": 289,
+    "latitude": -6.220860428725151,
+    "longitude": 106.7271958203014,
+    "confidence": 0.7709200978279114
+  },
+  {
+    "building_id": 290,
+    "latitude": -6.22079363996953,
+    "longitude": 106.72719174595159,
+    "confidence": 0.7469338774681091
+  },
+  {
+    "building_id": 291,
+    "latitude": -6.220915388183676,
+    "longitude": 106.72718794833145,
+    "confidence": 0.7045935988426208
+  },
+  {
+    "building_id": 292,
+    "latitude": -6.220987396421753,
+    "longitude": 106.72718861569138,
+    "confidence": 0.6871953010559082
+  },
+  {
+    "building_id": 293,
+    "latitude": -6.220725999039393,
+    "longitude": 106.72797209010696,
+    "confidence": 0.5785574913024902
+  },
+  {
+    "building_id": 294,
+    "latitude": -6.220289330739613,
+    "longitude": 106.72760123488843,
+    "confidence": 0.5747782588005066
+  },
+  {
+    "building_id": 295,
+    "latitude": -6.222344618464026,
+    "longitude": 106.7277814834597,
+    "confidence": 0.9335344433784485
+  },
+  {
+    "building_id": 296,
+    "latitude": -6.22188431965926,
+    "longitude": 106.72761774339051,
+    "confidence": 0.9255527853965759
+  },
+  {
+    "building_id": 297,
+    "latitude": -6.221542092409085,
+    "longitude": 106.72697473895937,
+    "confidence": 0.9247465133666992
+  },
+  {
+    "building_id": 298,
+    "latitude": -6.22229299232389,
+    "longitude": 106.72696561388875,
+    "confidence": 0.9244587421417236
+  },
+  {
+    "building_id": 299,
+    "latitude": -6.222160401311532,
+    "longitude": 106.7267830397256,
+    "confidence": 0.9221025705337524
+  },
+  {
+    "building_id": 300,
+    "latitude": -6.221528947290218,
+    "longitude": 106.72709738244066,
+    "confidence": 0.9216699004173279
+  },
+  {
+    "building_id": 301,
+    "latitude": -6.221722571517638,
+    "longitude": 106.72675300220561,
+    "confidence": 0.9214300513267517
+  },
+  {
+    "building_id": 302,
+    "latitude": -6.221727743078545,
+    "longitude": 106.72778535759335,
+    "confidence": 0.9212822318077087
+  },
+  {
+    "building_id": 303,
+    "latitude": -6.221686353503085,
+    "longitude": 106.72740816781698,
+    "confidence": 0.9212251305580139
+  },
+  {
+    "building_id": 304,
+    "latitude": -6.222415431968458,
+    "longitude": 106.72716143505795,
+    "confidence": 0.9211302399635315
+  },
+  {
+    "building_id": 305,
+    "latitude": -6.221843710770463,
+    "longitude": 106.7276432826975,
+    "confidence": 0.9210291504859924
+  },
+  {
+    "building_id": 306,
+    "latitude": -6.22127691524637,
+    "longitude": 106.72765242748483,
+    "confidence": 0.9209079146385193
+  },
+  {
+    "building_id": 307,
+    "latitude": -6.22210630185775,
+    "longitude": 106.72700546521355,
+    "confidence": 0.9206307530403137
+  },
+  {
+    "building_id": 308,
+    "latitude": -6.221229824721608,
+    "longitude": 106.72772850512501,
+    "confidence": 0.920548141002655
+  },
+  {
+    "building_id": 309,
+    "latitude": -6.221716956294143,
+    "longitude": 106.7268098818522,
+    "confidence": 0.9204449653625488
+  },
+  {
+    "building_id": 310,
+    "latitude": -6.221645219192798,
+    "longitude": 106.72749977989042,
+    "confidence": 0.9203875064849854
+  },
+  {
+    "building_id": 311,
+    "latitude": -6.221437486407641,
+    "longitude": 106.72798784677525,
+    "confidence": 0.920300304889679
+  },
+  {
+    "building_id": 312,
+    "latitude": -6.221737120574609,
+    "longitude": 106.72748036825396,
+    "confidence": 0.9202945232391357
+  },
+  {
+    "building_id": 313,
+    "latitude": -6.221463987654142,
+    "longitude": 106.72695974458179,
+    "confidence": 0.919753909111023
+  },
+  {
+    "building_id": 314,
+    "latitude": -6.221799593389222,
+    "longitude": 106.7267619005085,
+    "confidence": 0.9197002649307251
+  },
+  {
+    "building_id": 315,
+    "latitude": -6.22184759451166,
+    "longitude": 106.72753302097135,
+    "confidence": 0.9186590909957886
+  },
+  {
+    "building_id": 316,
+    "latitude": -6.222292218147017,
+    "longitude": 106.72739175539164,
+    "confidence": 0.9186460375785828
+  },
+  {
+    "building_id": 317,
+    "latitude": -6.221955498607073,
+    "longitude": 106.7269841528946,
+    "confidence": 0.917758584022522
+  },
+  {
+    "building_id": 318,
+    "latitude": -6.221193896830123,
+    "longitude": 106.72700310093774,
+    "confidence": 0.9175549149513245
+  },
+  {
+    "building_id": 319,
+    "latitude": -6.221177094259033,
+    "longitude": 106.72760303319137,
+    "confidence": 0.9173764586448669
+  },
+  {
+    "building_id": 320,
+    "latitude": -6.222414124924522,
+    "longitude": 106.72708782567952,
+    "confidence": 0.9172261357307434
+  },
+  {
+    "building_id": 321,
+    "latitude": -6.221453757304282,
+    "longitude": 106.72706603629194,
+    "confidence": 0.9160007834434509
+  },
+  {
+    "building_id": 322,
+    "latitude": -6.222185100271589,
+    "longitude": 106.72712344813363,
+    "confidence": 0.9159783124923706
+  },
+  {
+    "building_id": 323,
+    "latitude": -6.222305443356655,
+    "longitude": 106.72711231362655,
+    "confidence": 0.9155429005622864
+  },
+  {
+    "building_id": 324,
+    "latitude": -6.2223652056774625,
+    "longitude": 106.72697791596875,
+    "confidence": 0.9151126742362976
+  },
+  {
+    "building_id": 325,
+    "latitude": -6.221427187725321,
+    "longitude": 106.72771747711067,
+    "confidence": 0.9144634008407593
+  },
+  {
+    "building_id": 326,
+    "latitude": -6.222075444350782,
+    "longitude": 106.72790431648536,
+    "confidence": 0.9144272208213806
+  },
+  {
+    "building_id": 327,
+    "latitude": -6.221952755503285,
+    "longitude": 106.72705147069905,
+    "confidence": 0.9139053821563721
+  },
+  {
+    "building_id": 328,
+    "latitude": -6.221290541571008,
+    "longitude": 106.72706653658679,
+    "confidence": 0.9137847423553467
+  },
+  {
+    "building_id": 329,
+    "latitude": -6.221667968022959,
+    "longitude": 106.72798064697417,
+    "confidence": 0.9135565757751465
+  },
+  {
+    "building_id": 330,
+    "latitude": -6.221681600826873,
+    "longitude": 106.72786140523385,
+    "confidence": 0.9133718609809875
+  },
+  {
+    "building_id": 331,
+    "latitude": -6.22120143874318,
+    "longitude": 106.72739440344685,
+    "confidence": 0.9124026298522949
+  },
+  {
+    "building_id": 332,
+    "latitude": -6.221961485336192,
+    "longitude": 106.72774551592738,
+    "confidence": 0.9123624563217163
+  },
+  {
+    "building_id": 333,
+    "latitude": -6.222275312383029,
+    "longitude": 106.72754631672433,
+    "confidence": 0.9117324948310852
+  },
+  {
+    "building_id": 334,
+    "latitude": -6.221132228167933,
+    "longitude": 106.72766742364274,
+    "confidence": 0.9113993644714355
+  },
+  {
+    "building_id": 335,
+    "latitude": -6.222117554112537,
+    "longitude": 106.72781483262952,
+    "confidence": 0.9113233089447021
+  },
+  {
+    "building_id": 336,
+    "latitude": -6.221195257144999,
+    "longitude": 106.72746803044447,
+    "confidence": 0.9110060930252075
+  },
+  {
+    "building_id": 337,
+    "latitude": -6.221390178720327,
+    "longitude": 106.72706412007756,
+    "confidence": 0.9108284711837769
+  },
+  {
+    "building_id": 338,
+    "latitude": -6.221841486517344,
+    "longitude": 106.72787949217764,
+    "confidence": 0.9089725613594055
+  },
+  {
+    "building_id": 339,
+    "latitude": -6.222384356464872,
+    "longitude": 106.72786080818696,
+    "confidence": 0.9081203937530518
+  },
+  {
+    "building_id": 340,
+    "latitude": -6.221344194402283,
+    "longitude": 106.7277203495496,
+    "confidence": 0.9077567458152771
+  },
+  {
+    "building_id": 341,
+    "latitude": -6.221759103812685,
+    "longitude": 106.72687407445608,
+    "confidence": 0.9067564606666565
+  },
+  {
+    "building_id": 342,
+    "latitude": -6.221854463805667,
+    "longitude": 106.72681774285877,
+    "confidence": 0.9062929749488831
+  },
+  {
+    "building_id": 343,
+    "latitude": -6.221392813069923,
+    "longitude": 106.72695436965569,
+    "confidence": 0.9059960842132568
+  },
+  {
+    "building_id": 344,
+    "latitude": -6.221897275689047,
+    "longitude": 106.72699783648454,
+    "confidence": 0.905399739742279
+  },
+  {
+    "building_id": 345,
+    "latitude": -6.222228002844492,
+    "longitude": 106.72768346504199,
+    "confidence": 0.9048464298248291
+  },
+  {
+    "building_id": 346,
+    "latitude": -6.221275550305982,
+    "longitude": 106.72672292186292,
+    "confidence": 0.9045484066009521
+  },
+  {
+    "building_id": 347,
+    "latitude": -6.222455245971111,
+    "longitude": 106.72775782516965,
+    "confidence": 0.9042922258377075
+  },
+  {
+    "building_id": 348,
+    "latitude": -6.221453472083901,
+    "longitude": 106.7273217457705,
+    "confidence": 0.9038785696029663
+  },
+  {
+    "building_id": 349,
+    "latitude": -6.2211387915343215,
+    "longitude": 106.72739446680225,
+    "confidence": 0.9035161733627319
+  },
+  {
+    "building_id": 350,
+    "latitude": -6.222222404424395,
+    "longitude": 106.72742216514507,
+    "confidence": 0.9017228484153748
+  },
+  {
+    "building_id": 351,
+    "latitude": -6.222251312330387,
+    "longitude": 106.72762447486093,
+    "confidence": 0.9012233018875122
+  },
+  {
+    "building_id": 352,
+    "latitude": -6.22113673779246,
+    "longitude": 106.72748392270478,
+    "confidence": 0.9008554220199585
+  },
+  {
+    "building_id": 353,
+    "latitude": -6.222215920469317,
+    "longitude": 106.72753617359831,
+    "confidence": 0.9006428122520447
+  },
+  {
+    "building_id": 354,
+    "latitude": -6.221301026250258,
+    "longitude": 106.72771702314549,
+    "confidence": 0.9002121686935425
+  },
+  {
+    "building_id": 355,
+    "latitude": -6.221313465463685,
+    "longitude": 106.72799381703953,
+    "confidence": 0.8997029662132263
+  },
+  {
+    "building_id": 356,
+    "latitude": -6.221900872063666,
+    "longitude": 106.7268147527156,
+    "confidence": 0.8991799354553223
+  },
+  {
+    "building_id": 357,
+    "latitude": -6.222044010442525,
+    "longitude": 106.72695980600338,
+    "confidence": 0.898737370967865
+  },
+  {
+    "building_id": 358,
+    "latitude": -6.2218034255810135,
+    "longitude": 106.72670498414249,
+    "confidence": 0.8975703120231628
+  },
+  {
+    "building_id": 359,
+    "latitude": -6.221949440595745,
+    "longitude": 106.72715278356691,
+    "confidence": 0.8952609896659851
+  },
+  {
+    "building_id": 360,
+    "latitude": -6.221321280320065,
+    "longitude": 106.72735031954744,
+    "confidence": 0.8944599032402039
+  },
+  {
+    "building_id": 361,
+    "latitude": -6.222432700124364,
+    "longitude": 106.72735749794356,
+    "confidence": 0.8914942741394043
+  },
+  {
+    "building_id": 362,
+    "latitude": -6.221364357879196,
+    "longitude": 106.72674338645447,
+    "confidence": 0.8910077214241028
+  },
+  {
+    "building_id": 363,
+    "latitude": -6.221637896125684,
+    "longitude": 106.7279104753834,
+    "confidence": 0.8882529735565186
+  },
+  {
+    "building_id": 364,
+    "latitude": -6.221985168850255,
+    "longitude": 106.72751767713635,
+    "confidence": 0.8873445987701416
+  },
+  {
+    "building_id": 365,
+    "latitude": -6.222433872659748,
+    "longitude": 106.72700858987696,
+    "confidence": 0.8848412036895752
+  },
+  {
+    "building_id": 366,
+    "latitude": -6.221897177838754,
+    "longitude": 106.72715355187393,
+    "confidence": 0.8838770389556885
+  },
+  {
+    "building_id": 367,
+    "latitude": -6.221997753374418,
+    "longitude": 106.72714054283688,
+    "confidence": 0.8814252018928528
+  },
+  {
+    "building_id": 368,
+    "latitude": -6.222255908283385,
+    "longitude": 106.72670172652789,
+    "confidence": 0.8807216882705688
+  },
+  {
+    "building_id": 369,
+    "latitude": -6.222447083629218,
+    "longitude": 106.72783214531137,
+    "confidence": 0.8757771849632263
+  },
+  {
+    "building_id": 370,
+    "latitude": -6.221517355305723,
+    "longitude": 106.72702559662753,
+    "confidence": 0.8753135800361633
+  },
+  {
+    "building_id": 371,
+    "latitude": -6.221493395949445,
+    "longitude": 106.72674446756344,
+    "confidence": 0.8727298974990845
+  },
+  {
+    "building_id": 372,
+    "latitude": -6.221266134346209,
+    "longitude": 106.72723080437208,
+    "confidence": 0.8718421459197998
+  },
+  {
+    "building_id": 373,
+    "latitude": -6.222072419657855,
+    "longitude": 106.72715565369344,
+    "confidence": 0.8704327940940857
+  },
+  {
+    "building_id": 374,
+    "latitude": -6.221878093532585,
+    "longitude": 106.72691768825985,
+    "confidence": 0.8702104687690735
+  },
+  {
+    "building_id": 375,
+    "latitude": -6.221195599796484,
+    "longitude": 106.72727336964499,
+    "confidence": 0.8685579895973206
+  },
+  {
+    "building_id": 376,
+    "latitude": -6.221665595285581,
+    "longitude": 106.72767679709068,
+    "confidence": 0.8644483089447021
+  },
+  {
+    "building_id": 377,
+    "latitude": -6.2221420022829035,
+    "longitude": 106.72769908100236,
+    "confidence": 0.8635023236274719
+  },
+  {
+    "building_id": 378,
+    "latitude": -6.221699658661091,
+    "longitude": 106.72731551441075,
+    "confidence": 0.8612707853317261
+  },
+  {
+    "building_id": 379,
+    "latitude": -6.22132971044322,
+    "longitude": 106.72694632971002,
+    "confidence": 0.8608757853507996
+  },
+  {
+    "building_id": 380,
+    "latitude": -6.221277085685916,
+    "longitude": 106.72694348992081,
+    "confidence": 0.860170304775238
+  },
+  {
+    "building_id": 381,
+    "latitude": -6.222197399788973,
+    "longitude": 106.72694357429236,
+    "confidence": 0.8586798906326294
+  },
+  {
+    "building_id": 382,
+    "latitude": -6.222369597304402,
+    "longitude": 106.72670485234903,
+    "confidence": 0.8581041097640991
+  },
+  {
+    "building_id": 383,
+    "latitude": -6.222142880128194,
+    "longitude": 106.7275233984401,
+    "confidence": 0.8563056588172913
+  },
+  {
+    "building_id": 384,
+    "latitude": -6.22213768079896,
+    "longitude": 106.72669293912087,
+    "confidence": 0.8551533818244934
+  },
+  {
+    "building_id": 385,
+    "latitude": -6.221990669298,
+    "longitude": 106.72692399800553,
+    "confidence": 0.854423463344574
+  },
+  {
+    "building_id": 386,
+    "latitude": -6.221234306061602,
+    "longitude": 106.7279425003926,
+    "confidence": 0.8534319400787354
+  },
+  {
+    "building_id": 387,
+    "latitude": -6.222435258594212,
+    "longitude": 106.72670655490776,
+    "confidence": 0.8509065508842468
+  },
+  {
+    "building_id": 388,
+    "latitude": -6.221149053825387,
+    "longitude": 106.72796371225559,
+    "confidence": 0.8501096367835999
+  },
+  {
+    "building_id": 389,
+    "latitude": -6.221860293099564,
+    "longitude": 106.72737085854578,
+    "confidence": 0.849597156047821
+  },
+  {
+    "building_id": 390,
+    "latitude": -6.2221345390925435,
+    "longitude": 106.72759999888513,
+    "confidence": 0.8493983745574951
+  },
+  {
+    "building_id": 391,
+    "latitude": -6.221614895142844,
+    "longitude": 106.72740642701683,
+    "confidence": 0.8470848202705383
+  },
+  {
+    "building_id": 392,
+    "latitude": -6.222101027706607,
+    "longitude": 106.72692466028025,
+    "confidence": 0.8470628261566162
+  },
+  {
+    "building_id": 393,
+    "latitude": -6.222051501299497,
+    "longitude": 106.72677514156092,
+    "confidence": 0.8460919260978699
+  },
+  {
+    "building_id": 394,
+    "latitude": -6.221481268341396,
+    "longitude": 106.72765583709406,
+    "confidence": 0.8445589542388916
+  },
+  {
+    "building_id": 395,
+    "latitude": -6.22111607731209,
+    "longitude": 106.72756888454842,
+    "confidence": 0.8445289134979248
+  },
+  {
+    "building_id": 396,
+    "latitude": -6.221872236551734,
+    "longitude": 106.72704372288194,
+    "confidence": 0.8435477018356323
+  },
+  {
+    "building_id": 397,
+    "latitude": -6.221356878444873,
+    "longitude": 106.72794991497994,
+    "confidence": 0.8432940244674683
+  },
+  {
+    "building_id": 398,
+    "latitude": -6.221376444729852,
+    "longitude": 106.72762466811946,
+    "confidence": 0.8386418223381042
+  },
+  {
+    "building_id": 399,
+    "latitude": -6.222250849891122,
+    "longitude": 106.72678587218499,
+    "confidence": 0.8349407315254211
+  },
+  {
+    "building_id": 400,
+    "latitude": -6.222333324343146,
+    "longitude": 106.72680634382857,
+    "confidence": 0.8282018303871155
+  },
+  {
+    "building_id": 401,
+    "latitude": -6.222444558359304,
+    "longitude": 106.72692357807136,
+    "confidence": 0.8221186995506287
+  },
+  {
+    "building_id": 402,
+    "latitude": -6.222430845891824,
+    "longitude": 106.72758556257122,
+    "confidence": 0.821299135684967
+  },
+  {
+    "building_id": 403,
+    "latitude": -6.221732729130757,
+    "longitude": 106.72716115458343,
+    "confidence": 0.817951500415802
+  },
+  {
+    "building_id": 404,
+    "latitude": -6.222149706498269,
+    "longitude": 106.72744736561526,
+    "confidence": 0.816806435585022
+  },
+  {
+    "building_id": 405,
+    "latitude": -6.221731675317684,
+    "longitude": 106.72705121878153,
+    "confidence": 0.8160114288330078
+  },
+  {
+    "building_id": 406,
+    "latitude": -6.222389465470758,
+    "longitude": 106.72691028736267,
+    "confidence": 0.8142064809799194
+  },
+  {
+    "building_id": 407,
+    "latitude": -6.221997269208726,
+    "longitude": 106.72723057788062,
+    "confidence": 0.8137192130088806
+  },
+  {
+    "building_id": 408,
+    "latitude": -6.221437972109237,
+    "longitude": 106.72681136250844,
+    "confidence": 0.8088685274124146
+  },
+  {
+    "building_id": 409,
+    "latitude": -6.221201259248413,
+    "longitude": 106.72710806427176,
+    "confidence": 0.8087502121925354
+  },
+  {
+    "building_id": 410,
+    "latitude": -6.221463794821933,
+    "longitude": 106.72722863162562,
+    "confidence": 0.8064500689506531
+  },
+  {
+    "building_id": 411,
+    "latitude": -6.221606666746917,
+    "longitude": 106.72696056143877,
+    "confidence": 0.8037168383598328
+  },
+  {
+    "building_id": 412,
+    "latitude": -6.221593515158945,
+    "longitude": 106.72716081386397,
+    "confidence": 0.7991703748703003
+  },
+  {
+    "building_id": 413,
+    "latitude": -6.221940451022185,
+    "longitude": 106.72723126901928,
+    "confidence": 0.7968589067459106
+  },
+  {
+    "building_id": 414,
+    "latitude": -6.221736686798767,
+    "longitude": 106.72697174187647,
+    "confidence": 0.7949612140655518
+  },
+  {
+    "building_id": 415,
+    "latitude": -6.222463153373322,
+    "longitude": 106.72787970238005,
+    "confidence": 0.7926097512245178
+  },
+  {
+    "building_id": 416,
+    "latitude": -6.222155865736843,
+    "longitude": 106.72736677840476,
+    "confidence": 0.7848239541053772
+  },
+  {
+    "building_id": 417,
+    "latitude": -6.22184869698542,
+    "longitude": 106.72717900549969,
+    "confidence": 0.7846119403839111
+  },
+  {
+    "building_id": 418,
+    "latitude": -6.221143369850365,
+    "longitude": 106.72804635745251,
+    "confidence": 0.7833149433135986
+  },
+  {
+    "building_id": 419,
+    "latitude": -6.221604694259959,
+    "longitude": 106.72705480604577,
+    "confidence": 0.7800042033195496
+  },
+  {
+    "building_id": 420,
+    "latitude": -6.222411102713452,
+    "longitude": 106.72680507237203,
+    "confidence": 0.7750974297523499
+  },
+  {
+    "building_id": 421,
+    "latitude": -6.222452632696963,
+    "longitude": 106.72747010828061,
+    "confidence": 0.7687695026397705
+  },
+  {
+    "building_id": 422,
+    "latitude": -6.221616112087207,
+    "longitude": 106.72730944958403,
+    "confidence": 0.7658311128616333
+  },
+  {
+    "building_id": 423,
+    "latitude": -6.2215170550416214,
+    "longitude": 106.72732187469137,
+    "confidence": 0.7619397640228271
+  },
+  {
+    "building_id": 424,
+    "latitude": -6.221511185387023,
+    "longitude": 106.7271629069046,
+    "confidence": 0.7516314387321472
+  },
+  {
+    "building_id": 425,
+    "latitude": -6.221502884874818,
+    "longitude": 106.72724646291726,
+    "confidence": 0.7467672228813171
+  },
+  {
+    "building_id": 426,
+    "latitude": -6.221949017784832,
+    "longitude": 106.72681688711577,
+    "confidence": 0.72530198097229
+  },
+  {
+    "building_id": 427,
+    "latitude": -6.221950145321287,
+    "longitude": 106.72685149837491,
+    "confidence": 0.7132903933525085
+  },
+  {
+    "building_id": 428,
+    "latitude": -6.2219336083776335,
+    "longitude": 106.72672606639043,
+    "confidence": 0.7121279835700989
+  },
+  {
+    "building_id": 429,
+    "latitude": -6.221567489401806,
+    "longitude": 106.72775095728866,
+    "confidence": 0.6669124364852905
+  },
+  {
+    "building_id": 430,
+    "latitude": -6.221419199469475,
+    "longitude": 106.72690777316006,
+    "confidence": 0.625980794429779
+  },
+  {
+    "building_id": 431,
+    "latitude": -6.221558305510989,
+    "longitude": 106.72792815244065,
+    "confidence": 0.6234169006347656
+  },
+  {
+    "building_id": 432,
+    "latitude": -6.221950913761406,
+    "longitude": 106.72678172752853,
+    "confidence": 0.6080626845359802
+  },
+  {
+    "building_id": 433,
+    "latitude": -6.221654103734952,
+    "longitude": 106.72719200602387,
+    "confidence": 0.5649185180664062
+  },
+  {
+    "building_id": 434,
     "latitude": -6.2307573098266555,
     "longitude": 106.85358893230614,
     "confidence": 0.9329102039337158
   },
   {
-    "building_id": 2,
+    "building_id": 435,
     "latitude": -6.231714309617974,
     "longitude": 106.85411117015974,
     "confidence": 0.9237543940544128
   },
   {
-    "building_id": 3,
+    "building_id": 436,
     "latitude": -6.23124120762527,
     "longitude": 106.85419814591114,
     "confidence": 0.9235619306564331
   },
   {
-    "building_id": 4,
+    "building_id": 437,
     "latitude": -6.23073280646843,
     "longitude": 106.85362623537685,
     "confidence": 0.9207109808921814
   },
   {
-    "building_id": 5,
+    "building_id": 438,
     "latitude": -6.231038294038509,
     "longitude": 106.85324652665543,
     "confidence": 0.9201326966285706
   },
   {
-    "building_id": 6,
+    "building_id": 439,
     "latitude": -6.230787065439796,
     "longitude": 106.85354252472052,
     "confidence": 0.9200258255004883
   },
   {
-    "building_id": 7,
+    "building_id": 440,
     "latitude": -6.230976612034839,
     "longitude": 106.85322985650089,
     "confidence": 0.919443666934967
   },
   {
-    "building_id": 8,
+    "building_id": 441,
     "latitude": -6.230846793321197,
     "longitude": 106.85371972766916,
     "confidence": 0.9184622764587402
   },
   {
-    "building_id": 9,
+    "building_id": 442,
     "latitude": -6.230771820333864,
     "longitude": 106.85391176063149,
     "confidence": 0.917705774307251
   },
   {
-    "building_id": 10,
+    "building_id": 443,
     "latitude": -6.231406270701809,
     "longitude": 106.85380898216863,
     "confidence": 0.9173939228057861
   },
   {
-    "building_id": 11,
+    "building_id": 444,
     "latitude": -6.231310554595218,
     "longitude": 106.85354730021572,
     "confidence": 0.9173451662063599
   },
   {
-    "building_id": 12,
+    "building_id": 445,
     "latitude": -6.230918910878897,
     "longitude": 106.85331067456673,
     "confidence": 0.9172285199165344
   },
   {
-    "building_id": 13,
+    "building_id": 446,
     "latitude": -6.230944867485397,
     "longitude": 106.85355943377772,
     "confidence": 0.9171112775802612
   },
   {
-    "building_id": 14,
+    "building_id": 447,
     "latitude": -6.231779083827895,
     "longitude": 106.85370975784963,
     "confidence": 0.9166405200958252
   },
   {
-    "building_id": 15,
+    "building_id": 448,
     "latitude": -6.230834825415723,
     "longitude": 106.85347687720878,
     "confidence": 0.9166065454483032
   },
   {
-    "building_id": 16,
+    "building_id": 449,
     "latitude": -6.230809893706278,
     "longitude": 106.85409473929667,
     "confidence": 0.9159843921661377
   },
   {
-    "building_id": 17,
+    "building_id": 450,
     "latitude": -6.23177003509853,
     "longitude": 106.85380712615824,
     "confidence": 0.9159650206565857
   },
   {
-    "building_id": 18,
+    "building_id": 451,
     "latitude": -6.230722335391901,
     "longitude": 106.85402173774946,
     "confidence": 0.9154112339019775
   },
   {
-    "building_id": 19,
+    "building_id": 452,
     "latitude": -6.2309889520545445,
     "longitude": 106.85349678887405,
     "confidence": 0.9153005480766296
   },
   {
-    "building_id": 20,
+    "building_id": 453,
     "latitude": -6.231034953600142,
     "longitude": 106.85343789743001,
     "confidence": 0.9152307510375977
   },
   {
-    "building_id": 21,
+    "building_id": 454,
     "latitude": -6.231786609619413,
     "longitude": 106.85357248016089,
     "confidence": 0.9152174592018127
   },
   {
-    "building_id": 22,
+    "building_id": 455,
     "latitude": -6.230941004320341,
     "longitude": 106.85401427711895,
     "confidence": 0.9149646162986755
   },
   {
-    "building_id": 23,
+    "building_id": 456,
     "latitude": -6.231391021041649,
     "longitude": 106.85389874040084,
     "confidence": 0.9143785834312439
   },
   {
-    "building_id": 24,
+    "building_id": 457,
     "latitude": -6.231250423042932,
     "longitude": 106.85412353702759,
     "confidence": 0.9136813282966614
   },
   {
-    "building_id": 25,
+    "building_id": 458,
     "latitude": -6.231049489373016,
     "longitude": 106.85403546929592,
     "confidence": 0.9133225083351135
   },
   {
-    "building_id": 26,
+    "building_id": 459,
     "latitude": -6.2316335438283295,
     "longitude": 106.85353299652661,
     "confidence": 0.9129899144172668
   },
   {
-    "building_id": 27,
+    "building_id": 460,
     "latitude": -6.231105823629994,
     "longitude": 106.85326790010436,
     "confidence": 0.912972629070282
   },
   {
-    "building_id": 28,
+    "building_id": 461,
     "latitude": -6.231342176996762,
     "longitude": 106.85338254871112,
     "confidence": 0.9129610061645508
   },
   {
-    "building_id": 29,
+    "building_id": 462,
     "latitude": -6.231739580003295,
     "longitude": 106.85400142280741,
     "confidence": 0.9114328026771545
   },
   {
-    "building_id": 30,
+    "building_id": 463,
     "latitude": -6.231609611139991,
     "longitude": 106.85369302821755,
     "confidence": 0.9109261631965637
   },
   {
-    "building_id": 31,
+    "building_id": 464,
     "latitude": -6.230705795196316,
     "longitude": 106.85386533786186,
     "confidence": 0.9107574224472046
   },
   {
-    "building_id": 32,
+    "building_id": 465,
     "latitude": -6.230886844461757,
     "longitude": 106.85339948221213,
     "confidence": 0.9104048609733582
   },
   {
-    "building_id": 33,
+    "building_id": 466,
     "latitude": -6.231382270801103,
     "longitude": 106.85399183559639,
     "confidence": 0.9103067517280579
   },
   {
-    "building_id": 34,
+    "building_id": 467,
     "latitude": -6.230902837226445,
     "longitude": 106.85414206168844,
     "confidence": 0.9089184999465942
   },
   {
-    "building_id": 35,
+    "building_id": 468,
     "latitude": -6.231054514189104,
     "longitude": 106.85335446080217,
     "confidence": 0.9088085293769836
   },
   {
-    "building_id": 36,
+    "building_id": 469,
     "latitude": -6.2313512132153495,
     "longitude": 106.85422957948049,
     "confidence": 0.9082832336425781
   },
   {
-    "building_id": 37,
+    "building_id": 470,
     "latitude": -6.231565853407252,
     "longitude": 106.85385317915006,
     "confidence": 0.9081965088844299
   },
   {
-    "building_id": 38,
+    "building_id": 471,
     "latitude": -6.231753119755615,
     "longitude": 106.85390145944439,
     "confidence": 0.9067020416259766
   },
   {
-    "building_id": 39,
+    "building_id": 472,
     "latitude": -6.231564372416107,
     "longitude": 106.85394847557745,
     "confidence": 0.9050623774528503
   },
   {
-    "building_id": 40,
+    "building_id": 473,
     "latitude": -6.230898337532404,
     "longitude": 106.85364850629412,
     "confidence": 0.9049039483070374
   },
   {
-    "building_id": 41,
+    "building_id": 474,
     "latitude": -6.231642188673211,
     "longitude": 106.85344539810785,
     "confidence": 0.9039720892906189
   },
   {
-    "building_id": 42,
+    "building_id": 475,
     "latitude": -6.231587708045435,
     "longitude": 106.85377698200227,
     "confidence": 0.9029803276062012
   },
   {
-    "building_id": 43,
+    "building_id": 476,
     "latitude": -6.231351188397224,
     "longitude": 106.85328846082484,
     "confidence": 0.9005252718925476
   },
   {
-    "building_id": 44,
+    "building_id": 477,
     "latitude": -6.231264119068072,
     "longitude": 106.85396762421533,
     "confidence": 0.8998755216598511
   },
   {
-    "building_id": 45,
+    "building_id": 478,
     "latitude": -6.231746699631945,
     "longitude": 106.85306501833281,
     "confidence": 0.8996360898017883
   },
   {
-    "building_id": 46,
+    "building_id": 479,
     "latitude": -6.230704716973348,
     "longitude": 106.8543549188098,
     "confidence": 0.898042619228363
   },
   {
-    "building_id": 47,
+    "building_id": 480,
     "latitude": -6.230688970416674,
     "longitude": 106.8542440112924,
     "confidence": 0.8945781588554382
   },
   {
-    "building_id": 48,
+    "building_id": 481,
     "latitude": -6.231005536065309,
     "longitude": 106.85437611724865,
     "confidence": 0.8941415548324585
   },
   {
-    "building_id": 49,
+    "building_id": 482,
     "latitude": -6.231554439347755,
     "longitude": 106.85403391983073,
     "confidence": 0.8886415958404541
   },
   {
-    "building_id": 50,
+    "building_id": 483,
     "latitude": -6.23085076790845,
     "longitude": 106.85305677882582,
     "confidence": 0.8844490051269531
   },
   {
-    "building_id": 51,
+    "building_id": 484,
     "latitude": -6.231552245710229,
     "longitude": 106.85408734214434,
     "confidence": 0.8800716400146484
   },
   {
-    "building_id": 52,
+    "building_id": 485,
     "latitude": -6.231576757474608,
     "longitude": 106.85424065906318,
     "confidence": 0.8792868256568909
   },
   {
-    "building_id": 53,
+    "building_id": 486,
     "latitude": -6.231752645892152,
     "longitude": 106.85318078634111,
     "confidence": 0.8791856169700623
   },
   {
-    "building_id": 54,
+    "building_id": 487,
     "latitude": -6.231990523478359,
     "longitude": 106.85434369520408,
     "confidence": 0.8734428286552429
   },
   {
-    "building_id": 55,
+    "building_id": 488,
     "latitude": -6.231432850426351,
     "longitude": 106.85364290253347,
     "confidence": 0.8697054386138916
   },
   {
-    "building_id": 56,
+    "building_id": 489,
     "latitude": -6.231388104952548,
     "longitude": 106.85406687417526,
     "confidence": 0.8692837953567505
   },
   {
-    "building_id": 57,
+    "building_id": 490,
     "latitude": -6.2313694782981415,
     "longitude": 106.85414537229462,
     "confidence": 0.8650018572807312
   },
   {
-    "building_id": 58,
+    "building_id": 491,
     "latitude": -6.230809473656955,
     "longitude": 106.85377086368362,
     "confidence": 0.8644437789916992
   },
   {
-    "building_id": 59,
+    "building_id": 492,
     "latitude": -6.230718425946124,
     "longitude": 106.85368434562179,
     "confidence": 0.8633805513381958
   },
   {
-    "building_id": 60,
+    "building_id": 493,
     "latitude": -6.231017315347941,
     "longitude": 106.85417491195494,
     "confidence": 0.858557939529419
   },
   {
-    "building_id": 61,
+    "building_id": 494,
     "latitude": -6.231273342419398,
     "longitude": 106.85380415352938,
     "confidence": 0.8582714796066284
   },
   {
-    "building_id": 62,
+    "building_id": 495,
     "latitude": -6.231246700181657,
     "longitude": 106.85404815138554,
     "confidence": 0.8577213883399963
   },
   {
-    "building_id": 63,
+    "building_id": 496,
     "latitude": -6.230859704890134,
     "longitude": 106.85395438191335,
     "confidence": 0.8576800227165222
   },
   {
-    "building_id": 64,
+    "building_id": 497,
     "latitude": -6.231321252814528,
     "longitude": 106.85346903660957,
     "confidence": 0.8558489680290222
   },
   {
-    "building_id": 65,
+    "building_id": 498,
     "latitude": -6.23126462222506,
     "longitude": 106.85389068616132,
     "confidence": 0.8547229170799255
   },
   {
-    "building_id": 66,
+    "building_id": 499,
     "latitude": -6.2318301845931,
     "longitude": 106.85340449742853,
     "confidence": 0.8534334301948547
   },
   {
-    "building_id": 67,
+    "building_id": 500,
     "latitude": -6.230689094719884,
     "longitude": 106.85319421602344,
     "confidence": 0.8524608612060547
   },
   {
-    "building_id": 68,
+    "building_id": 501,
     "latitude": -6.231842012586389,
     "longitude": 106.85320615776959,
     "confidence": 0.8521122336387634
   },
   {
-    "building_id": 69,
+    "building_id": 502,
     "latitude": -6.231670926394823,
     "longitude": 106.85318046013549,
     "confidence": 0.8511080741882324
   },
   {
-    "building_id": 70,
+    "building_id": 503,
     "latitude": -6.230901383108041,
     "longitude": 106.85321388997806,
     "confidence": 0.8500970602035522
   },
   {
-    "building_id": 71,
+    "building_id": 504,
     "latitude": -6.231296052713326,
     "longitude": 106.85363009702769,
     "confidence": 0.8489314317703247
   },
   {
-    "building_id": 72,
+    "building_id": 505,
     "latitude": -6.2317083616896625,
     "longitude": 106.85426941774949,
     "confidence": 0.8487305045127869
   },
   {
-    "building_id": 73,
+    "building_id": 506,
     "latitude": -6.231660637735617,
     "longitude": 106.85335410079574,
     "confidence": 0.8481935858726501
   },
   {
-    "building_id": 74,
+    "building_id": 507,
     "latitude": -6.231589573839587,
     "longitude": 106.85316734577725,
     "confidence": 0.8479492664337158
   },
   {
-    "building_id": 75,
+    "building_id": 508,
     "latitude": -6.231177114103307,
     "longitude": 106.8531043569292,
     "confidence": 0.8468062281608582
   },
   {
-    "building_id": 76,
+    "building_id": 509,
     "latitude": -6.231342295594855,
     "longitude": 106.85438116681325,
     "confidence": 0.844099760055542
   },
   {
-    "building_id": 77,
+    "building_id": 510,
     "latitude": -6.230727906175097,
     "longitude": 106.8533087051469,
     "confidence": 0.8428422212600708
   },
   {
-    "building_id": 78,
+    "building_id": 511,
     "latitude": -6.231430339605041,
     "longitude": 106.85314157827776,
     "confidence": 0.8416776657104492
   },
   {
-    "building_id": 79,
+    "building_id": 512,
     "latitude": -6.23128237082638,
     "longitude": 106.8537185799255,
     "confidence": 0.8402497172355652
   },
   {
-    "building_id": 80,
+    "building_id": 513,
     "latitude": -6.23145626433449,
     "longitude": 106.85349940807555,
     "confidence": 0.8386369943618774
   },
   {
-    "building_id": 81,
+    "building_id": 514,
     "latitude": -6.2314326221402805,
     "longitude": 106.85373283523859,
     "confidence": 0.8377377986907959
   },
   {
-    "building_id": 82,
+    "building_id": 515,
     "latitude": -6.230872513850361,
     "longitude": 106.85435949738348,
     "confidence": 0.8359355330467224
   },
   {
-    "building_id": 83,
+    "building_id": 516,
     "latitude": -6.231470992997092,
     "longitude": 106.85341388202914,
     "confidence": 0.8353288769721985
   },
   {
-    "building_id": 84,
+    "building_id": 517,
     "latitude": -6.231091563501058,
     "longitude": 106.85308842741676,
     "confidence": 0.8207848072052002
   },
   {
-    "building_id": 85,
+    "building_id": 518,
     "latitude": -6.231506534750302,
     "longitude": 106.85315855111241,
     "confidence": 0.8201084733009338
   },
   {
-    "building_id": 86,
+    "building_id": 519,
     "latitude": -6.230747999948816,
     "longitude": 106.85325966460823,
     "confidence": 0.8137483596801758
   },
   {
-    "building_id": 87,
+    "building_id": 520,
     "latitude": -6.231303204381769,
     "longitude": 106.85313058648404,
     "confidence": 0.8085368871688843
   },
   {
-    "building_id": 88,
+    "building_id": 521,
     "latitude": -6.2313609131357195,
     "longitude": 106.8530554935686,
     "confidence": 0.8052265048027039
   },
   {
-    "building_id": 89,
+    "building_id": 522,
     "latitude": -6.231501255568768,
     "longitude": 106.85418306687552,
     "confidence": 0.8035447001457214
   },
   {
-    "building_id": 90,
+    "building_id": 523,
     "latitude": -6.230758979038874,
     "longitude": 106.85306281620927,
     "confidence": 0.8014645576477051
   },
   {
-    "building_id": 91,
+    "building_id": 524,
     "latitude": -6.2307080311355225,
     "longitude": 106.85335842538507,
     "confidence": 0.7995523810386658
   },
   {
-    "building_id": 92,
+    "building_id": 525,
     "latitude": -6.23148136241692,
     "longitude": 106.85331022610626,
     "confidence": 0.7873095273971558
   },
   {
-    "building_id": 93,
+    "building_id": 526,
     "latitude": -6.231014611586044,
     "longitude": 106.85308216997612,
     "confidence": 0.786302924156189
   },
   {
-    "building_id": 94,
+    "building_id": 527,
     "latitude": -6.23068651017755,
     "longitude": 106.85305560054019,
     "confidence": 0.7633540630340576
   },
   {
-    "building_id": 95,
+    "building_id": 528,
     "latitude": -6.230935360088587,
     "longitude": 106.85307657497901,
     "confidence": 0.7618783712387085
   },
   {
-    "building_id": 96,
+    "building_id": 529,
     "latitude": -6.231488603166161,
     "longitude": 106.85427712402543,
     "confidence": 0.7427322268486023
   },
   {
-    "building_id": 97,
+    "building_id": 530,
     "latitude": -6.232002676873895,
     "longitude": 106.85439292104093,
     "confidence": 0.7120895981788635
   },
   {
-    "building_id": 98,
+    "building_id": 531,
     "latitude": -6.231078451474898,
     "longitude": 106.85438957380484,
     "confidence": 0.6951631307601929
   },
   {
-    "building_id": 99,
+    "building_id": 532,
     "latitude": -6.231580242549757,
     "longitude": 106.85438477974913,
     "confidence": 0.6342293620109558
   },
   {
-    "building_id": 100,
+    "building_id": 533,
     "latitude": -6.2320211003044665,
     "longitude": 106.85424544738908,
     "confidence": 0.6063550114631653
   },
   {
-    "building_id": 101,
+    "building_id": 534,
     "latitude": -6.230677354299742,
     "longitude": 106.8538024417876,
     "confidence": 0.5585987567901611
   },
   {
-    "building_id": 102,
+    "building_id": 535,
     "latitude": -6.23068936303739,
     "longitude": 106.85343998152803,
     "confidence": 0.5468592643737793
   },
   {
-    "building_id": 103,
+    "building_id": 536,
     "latitude": -6.231519075634084,
     "longitude": 106.85303189784956,
     "confidence": 0.5029950737953186
   },
   {
-    "building_id": 104,
+    "building_id": 537,
     "latitude": -6.230671631871694,
     "longitude": 106.85394831923531,
     "confidence": 0.4470548927783966
   },
   {
-    "building_id": 105,
+    "building_id": 538,
     "latitude": -6.230671874665941,
     "longitude": 106.85396187790502,
     "confidence": 0.4295062720775604
   },
   {
-    "building_id": 106,
+    "building_id": 539,
     "latitude": -6.231600047129374,
     "longitude": 106.85438101476848,
     "confidence": 0.30403077602386475
   },
   {
-    "building_id": 107,
-    "latitude": -6.231323237776369,
-    "longitude": 106.85451015605878,
-    "confidence": 0.9270774126052856
+    "building_id": 540,
+    "latitude": -6.231323235030102,
+    "longitude": 106.85451015603576,
+    "confidence": 0.9270674586296082
   },
   {
-    "building_id": 108,
-    "latitude": -6.231061425284468,
-    "longitude": 106.85529873907399,
-    "confidence": 0.9265338778495789
+    "building_id": 541,
+    "latitude": -6.231061425121726,
+    "longitude": 106.85529873911491,
+    "confidence": 0.926541268825531
   },
   {
-    "building_id": 109,
-    "latitude": -6.230877138382627,
-    "longitude": 106.85475034419824,
-    "confidence": 0.9234851002693176
+    "building_id": 542,
+    "latitude": -6.23087713855554,
+    "longitude": 106.85475034397314,
+    "confidence": 0.9234941601753235
   },
   {
-    "building_id": 110,
-    "latitude": -6.231839978964747,
-    "longitude": 106.85537857563759,
-    "confidence": 0.9219093322753906
+    "building_id": 543,
+    "latitude": -6.231839978557893,
+    "longitude": 106.85537857555573,
+    "confidence": 0.9218913912773132
   },
   {
-    "building_id": 111,
+    "building_id": 544,
     "latitude": -6.2315690993333135,
-    "longitude": 106.85472627228705,
-    "confidence": 0.9213194251060486
+    "longitude": 106.85472627229728,
+    "confidence": 0.9213201403617859
   },
   {
-    "building_id": 112,
+    "building_id": 545,
     "latitude": -6.231516140178709,
-    "longitude": 106.85480803416112,
-    "confidence": 0.9208331108093262
+    "longitude": 106.85480803403834,
+    "confidence": 0.920832097530365
   },
   {
-    "building_id": 113,
-    "latitude": -6.231732484989345,
-    "longitude": 106.85478168285726,
-    "confidence": 0.9206346869468689
+    "building_id": 546,
+    "latitude": -6.231732493492604,
+    "longitude": 106.85478168324607,
+    "confidence": 0.9206206798553467
   },
   {
-    "building_id": 114,
-    "latitude": -6.230913204108518,
-    "longitude": 106.85538522206116,
-    "confidence": 0.9201266765594482
+    "building_id": 547,
+    "latitude": -6.230913204662857,
+    "longitude": 106.85538522222487,
+    "confidence": 0.9201222062110901
   },
   {
-    "building_id": 115,
+    "building_id": 548,
     "latitude": -6.231302974447935,
-    "longitude": 106.85543429409336,
-    "confidence": 0.9200457334518433
+    "longitude": 106.85543429392965,
+    "confidence": 0.9200558066368103
   },
   {
-    "building_id": 116,
-    "latitude": -6.23154051585025,
-    "longitude": 106.85497563534909,
-    "confidence": 0.9196308851242065
+    "building_id": 549,
+    "latitude": -6.231540515728193,
+    "longitude": 106.85497563561512,
+    "confidence": 0.9196348190307617
   },
   {
-    "building_id": 117,
-    "latitude": -6.2315476044358995,
-    "longitude": 106.85488634430158,
-    "confidence": 0.9188019037246704
+    "building_id": 550,
+    "latitude": -6.2315476045579565,
+    "longitude": 106.85488634424019,
+    "confidence": 0.9188053011894226
   },
   {
-    "building_id": 118,
-    "latitude": -6.231279941355631,
-    "longitude": 106.85501096396592,
-    "confidence": 0.9178756475448608
+    "building_id": 551,
+    "latitude": -6.23127994225071,
+    "longitude": 106.85501096388407,
+    "confidence": 0.9178940653800964
   },
   {
-    "building_id": 119,
-    "latitude": -6.230858140132728,
-    "longitude": 106.85462511659011,
-    "confidence": 0.9177918434143066
+    "building_id": 552,
+    "latitude": -6.23085814081421,
+    "longitude": 106.85462511579203,
+    "confidence": 0.9177987575531006
   },
   {
-    "building_id": 120,
-    "latitude": -6.230835080716936,
-    "longitude": 106.85528537542268,
-    "confidence": 0.9167908430099487
+    "building_id": 553,
+    "latitude": -6.230835080849164,
+    "longitude": 106.8552853743995,
+    "confidence": 0.9167256355285645
   },
   {
-    "building_id": 121,
-    "latitude": -6.231002101765604,
-    "longitude": 106.85514369833982,
-    "confidence": 0.916650116443634
+    "building_id": 554,
+    "latitude": -6.231002101236694,
+    "longitude": 106.85514370259625,
+    "confidence": 0.9166339039802551
   },
   {
-    "building_id": 122,
-    "latitude": -6.231704434648447,
-    "longitude": 106.85465371700047,
-    "confidence": 0.9161051511764526
+    "building_id": 555,
+    "latitude": -6.231704434567076,
+    "longitude": 106.85465371699024,
+    "confidence": 0.916107714176178
   },
   {
-    "building_id": 123,
-    "latitude": -6.231305220366267,
-    "longitude": 106.85492172939803,
-    "confidence": 0.9157975912094116
+    "building_id": 556,
+    "latitude": -6.230984407764162,
+    "longitude": 106.85495801024899,
+    "confidence": 0.9158090949058533
   },
   {
-    "building_id": 124,
-    "latitude": -6.2309844090050674,
-    "longitude": 106.85495801004436,
-    "confidence": 0.9157947897911072
+    "building_id": 557,
+    "latitude": -6.231305220183183,
+    "longitude": 106.85492172937757,
+    "confidence": 0.9158000946044922
   },
   {
-    "building_id": 125,
-    "latitude": -6.231308449346837,
-    "longitude": 106.85479244623593,
-    "confidence": 0.9154691100120544
+    "building_id": 558,
+    "latitude": -6.231308442735451,
+    "longitude": 106.85479244716703,
+    "confidence": 0.9154810905456543
   },
   {
-    "building_id": 126,
-    "latitude": -6.2317191392252616,
-    "longitude": 106.85543858867277,
-    "confidence": 0.915386438369751
+    "building_id": 559,
+    "latitude": -6.231719138981148,
+    "longitude": 106.85543858900019,
+    "confidence": 0.9153998494148254
   },
   {
-    "building_id": 127,
-    "latitude": -6.230815470234896,
-    "longitude": 106.85501961500677,
-    "confidence": 0.9153141379356384
+    "building_id": 560,
+    "latitude": -6.230815469390674,
+    "longitude": 106.85501961488399,
+    "confidence": 0.9153169393539429
   },
   {
-    "building_id": 128,
-    "latitude": -6.230834352111687,
-    "longitude": 106.85510634546063,
-    "confidence": 0.9151712656021118
+    "building_id": 561,
+    "latitude": -6.230834352050659,
+    "longitude": 106.85510634529692,
+    "confidence": 0.91517174243927
   },
   {
-    "building_id": 129,
-    "latitude": -6.230976568816718,
-    "longitude": 106.85486534012398,
-    "confidence": 0.915161669254303
+    "building_id": 562,
+    "latitude": -6.230976568969288,
+    "longitude": 106.85486533991934,
+    "confidence": 0.9151608943939209
   },
   {
-    "building_id": 130,
-    "latitude": -6.231147570138431,
-    "longitude": 106.85550630577382,
-    "confidence": 0.9146526455879211
+    "building_id": 563,
+    "latitude": -6.2311475702808305,
+    "longitude": 106.85550630601938,
+    "confidence": 0.9146663546562195
   },
   {
-    "building_id": 131,
-    "latitude": -6.231550324502491,
-    "longitude": 106.85465383899441,
-    "confidence": 0.9146204590797424
+    "building_id": 564,
+    "latitude": -6.231550324177007,
+    "longitude": 106.85465383903534,
+    "confidence": 0.9146081805229187
   },
   {
-    "building_id": 132,
-    "latitude": -6.2308319572134,
-    "longitude": 106.85487155593137,
-    "confidence": 0.9139788746833801
+    "building_id": 565,
+    "latitude": -6.230831956852318,
+    "longitude": 106.85487155599276,
+    "confidence": 0.913977324962616
   },
   {
-    "building_id": 133,
-    "latitude": -6.231004365636392,
-    "longitude": 106.85522639236297,
-    "confidence": 0.91322261095047
+    "building_id": 566,
+    "latitude": -6.231004365392279,
+    "longitude": 106.85522639244482,
+    "confidence": 0.9132330417633057
   },
   {
-    "building_id": 134,
+    "building_id": 567,
     "latitude": -6.231718153416756,
-    "longitude": 106.8544809639032,
-    "confidence": 0.9123945236206055
+    "longitude": 106.854480963767,
+    "confidence": 0.9123865365982056
   },
   {
-    "building_id": 135,
-    "latitude": -6.2317316646485725,
-    "longitude": 106.85486383338684,
-    "confidence": 0.9122640490531921
+    "building_id": 568,
+    "latitude": -6.2317316649333705,
+    "longitude": 106.85486383244552,
+    "confidence": 0.9122730493545532
   },
   {
-    "building_id": 136,
-    "latitude": -6.23126914620323,
-    "longitude": 106.85568080754365,
-    "confidence": 0.9117845296859741
+    "building_id": 569,
+    "latitude": -6.23126914634563,
+    "longitude": 106.85568080729809,
+    "confidence": 0.9117818474769592
   },
   {
-    "building_id": 137,
-    "latitude": -6.2313138548567,
-    "longitude": 106.85466211368862,
-    "confidence": 0.911605954170227
+    "building_id": 570,
+    "latitude": -6.2313138636651,
+    "longitude": 106.85466211597031,
+    "confidence": 0.911621630191803
   },
   {
-    "building_id": 138,
-    "latitude": -6.231552316014691,
-    "longitude": 106.85457842601295,
-    "confidence": 0.9114754796028137
+    "building_id": 571,
+    "latitude": -6.231265325452759,
+    "longitude": 106.85523393316998,
+    "confidence": 0.91147780418396
   },
   {
-    "building_id": 139,
-    "latitude": -6.231265325432416,
-    "longitude": 106.85523393321091,
-    "confidence": 0.9114748239517212
+    "building_id": 572,
+    "latitude": -6.231552315404408,
+    "longitude": 106.85457842621247,
+    "confidence": 0.9114704728126526
   },
   {
-    "building_id": 140,
-    "latitude": -6.231363712538943,
-    "longitude": 106.855195426715,
-    "confidence": 0.9112465977668762
+    "building_id": 573,
+    "latitude": -6.231363707209148,
+    "longitude": 106.85519542736984,
+    "confidence": 0.9112150073051453
   },
   {
-    "building_id": 141,
-    "latitude": -6.231527202756586,
-    "longitude": 106.85514983153553,
-    "confidence": 0.9109898805618286
+    "building_id": 574,
+    "latitude": -6.2315272044246885,
+    "longitude": 106.85514983611938,
+    "confidence": 0.9109312295913696
   },
   {
-    "building_id": 142,
-    "latitude": -6.231425621882748,
-    "longitude": 106.85554922017673,
-    "confidence": 0.9103004336357117
+    "building_id": 575,
+    "latitude": -6.231425622391315,
+    "longitude": 106.8555492214864,
+    "confidence": 0.9102916717529297
   },
   {
-    "building_id": 143,
-    "latitude": -6.230858471602193,
-    "longitude": 106.85451235571492,
-    "confidence": 0.9100321531295776
+    "building_id": 576,
+    "latitude": -6.230858471525908,
+    "longitude": 106.85451235600908,
+    "confidence": 0.9100390672683716
   },
   {
-    "building_id": 144,
+    "building_id": 577,
     "latitude": -6.231225307221644,
-    "longitude": 106.85546997623987,
-    "confidence": 0.9099686741828918
+    "longitude": 106.85546997591246,
+    "confidence": 0.9099793434143066
   },
   {
-    "building_id": 145,
-    "latitude": -6.23172003341013,
-    "longitude": 106.8549836741181,
-    "confidence": 0.9093856811523438
+    "building_id": 578,
+    "latitude": -6.231720029667068,
+    "longitude": 106.85498367407718,
+    "confidence": 0.9093660116195679
   },
   {
-    "building_id": 146,
-    "latitude": -6.231554338814002,
-    "longitude": 106.85505438944801,
-    "confidence": 0.9092698097229004
+    "building_id": 579,
+    "latitude": -6.2315543384478325,
+    "longitude": 106.85505438940709,
+    "confidence": 0.9092723727226257
   },
   {
-    "building_id": 147,
-    "latitude": -6.231232318403221,
-    "longitude": 106.85557490141946,
-    "confidence": 0.9088448286056519
+    "building_id": 580,
+    "latitude": -6.231329095830517,
+    "longitude": 106.85508889235734,
+    "confidence": 0.9089661836624146
   },
   {
-    "building_id": 148,
-    "latitude": -6.2313290571589945,
-    "longitude": 106.85508888312825,
-    "confidence": 0.9088106155395508
+    "building_id": 581,
+    "latitude": -6.231232318321849,
+    "longitude": 106.85557490125575,
+    "confidence": 0.9088618159294128
   },
   {
-    "building_id": 149,
-    "latitude": -6.230980429744074,
-    "longitude": 106.8550294298143,
-    "confidence": 0.9081506133079529
+    "building_id": 582,
+    "latitude": -6.23098042963219,
+    "longitude": 106.85502942995754,
+    "confidence": 0.9081500172615051
   },
   {
-    "building_id": 150,
+    "building_id": 583,
     "latitude": -6.231117299327952,
     "longitude": 106.85569985439543,
-    "confidence": 0.9081137180328369
+    "confidence": 0.908112645149231
   },
   {
-    "building_id": 151,
-    "latitude": -6.231202690768712,
-    "longitude": 106.85511293425861,
-    "confidence": 0.9065639972686768
+    "building_id": 584,
+    "latitude": -6.231202687737646,
+    "longitude": 106.85511293307172,
+    "confidence": 0.9066140651702881
   },
   {
-    "building_id": 152,
-    "latitude": -6.231747472574165,
-    "longitude": 106.85528360834724,
-    "confidence": 0.9056074023246765
+    "building_id": 585,
+    "latitude": -6.231747472533479,
+    "longitude": 106.85528360826538,
+    "confidence": 0.9056051969528198
   },
   {
-    "building_id": 153,
-    "latitude": -6.23198155127833,
-    "longitude": 106.85484873714131,
-    "confidence": 0.905266523361206
+    "building_id": 586,
+    "latitude": -6.231981551034217,
+    "longitude": 106.85484873701853,
+    "confidence": 0.9052765965461731
   },
   {
-    "building_id": 154,
-    "latitude": -6.230810359376707,
-    "longitude": 106.85495804444372,
-    "confidence": 0.9047989249229431
+    "building_id": 587,
+    "latitude": -6.230810359524192,
+    "longitude": 106.8549580445665,
+    "confidence": 0.9048008918762207
   },
   {
-    "building_id": 155,
-    "latitude": -6.23085654460695,
-    "longitude": 106.85563725835891,
-    "confidence": 0.9032336473464966
+    "building_id": 588,
+    "latitude": -6.230856535213697,
+    "longitude": 106.85563725938209,
+    "confidence": 0.9032484889030457
   },
   {
-    "building_id": 156,
-    "latitude": -6.230845169414772,
-    "longitude": 106.8551996852375,
-    "confidence": 0.9017103910446167
+    "building_id": 589,
+    "latitude": -6.230845163833237,
+    "longitude": 106.85519968527842,
+    "confidence": 0.9016616344451904
   },
   {
-    "building_id": 157,
-    "latitude": -6.230748394051753,
-    "longitude": 106.85568692526886,
-    "confidence": 0.8991113305091858
+    "building_id": 590,
+    "latitude": -6.230978831538142,
+    "longitude": 106.8550862083066,
+    "confidence": 0.8986071348190308
   },
   {
-    "building_id": 158,
-    "latitude": -6.230978831629684,
-    "longitude": 106.85508620812243,
-    "confidence": 0.8986058831214905
+    "building_id": 591,
+    "latitude": -6.230748393312296,
+    "longitude": 106.85568691479148,
+    "confidence": 0.8982100486755371
   },
   {
-    "building_id": 159,
+    "building_id": 592,
     "latitude": -6.231990364235499,
-    "longitude": 106.85473924192138,
-    "confidence": 0.8882609009742737
+    "longitude": 106.85473924211578,
+    "confidence": 0.8882623314857483
   },
   {
-    "building_id": 160,
-    "latitude": -6.231377216203265,
-    "longitude": 106.85539451115801,
-    "confidence": 0.8865140080451965
+    "building_id": 593,
+    "latitude": -6.231377216081209,
+    "longitude": 106.85539450788383,
+    "confidence": 0.8865163922309875
   },
   {
-    "building_id": 161,
-    "latitude": -6.231322978040442,
-    "longitude": 106.85457668927995,
-    "confidence": 0.8842412233352661
+    "building_id": 594,
+    "latitude": -6.231322552023073,
+    "longitude": 106.85457668173399,
+    "confidence": 0.8855450749397278
   },
   {
-    "building_id": 162,
-    "latitude": -6.2319947292149225,
-    "longitude": 106.85497221454625,
-    "confidence": 0.881340503692627
+    "building_id": 595,
+    "latitude": -6.231994729133552,
+    "longitude": 106.8549722140142,
+    "confidence": 0.881335437297821
   },
   {
-    "building_id": 163,
+    "building_id": 596,
     "latitude": -6.231984936714806,
-    "longitude": 106.85459623449532,
-    "confidence": 0.878576397895813
+    "longitude": 106.85459623630379,
+    "confidence": 0.8785440921783447
   },
   {
-    "building_id": 164,
-    "latitude": -6.231003113551772,
-    "longitude": 106.8544507589047,
-    "confidence": 0.8776657581329346
+    "building_id": 597,
+    "latitude": -6.231003114996106,
+    "longitude": 106.8544507588075,
+    "confidence": 0.8776365518569946
   },
   {
-    "building_id": 165,
-    "latitude": -6.231573198921533,
-    "longitude": 106.85446963140635,
-    "confidence": 0.8733990788459778
+    "building_id": 598,
+    "latitude": -6.2315731981078235,
+    "longitude": 106.85446963147285,
+    "confidence": 0.8733720183372498
   },
   {
-    "building_id": 166,
-    "latitude": -6.231185813954919,
-    "longitude": 106.85475941427285,
-    "confidence": 0.8647129535675049
+    "building_id": 599,
+    "latitude": -6.231185799247128,
+    "longitude": 106.8547594132292,
+    "confidence": 0.8646795153617859
   },
   {
-    "building_id": 167,
-    "latitude": -6.231057897398051,
-    "longitude": 106.8555432481935,
-    "confidence": 0.8596930503845215
+    "building_id": 600,
+    "latitude": -6.2310578968182835,
+    "longitude": 106.85554324647455,
+    "confidence": 0.8597274422645569
   },
   {
-    "building_id": 168,
-    "latitude": -6.231029637476218,
-    "longitude": 106.85449124592196,
-    "confidence": 0.8594675064086914
+    "building_id": 601,
+    "latitude": -6.231029608487834,
+    "longitude": 106.85449124778415,
+    "confidence": 0.8594052195549011
   },
   {
-    "building_id": 169,
-    "latitude": -6.231208645206696,
-    "longitude": 106.85527964274115,
-    "confidence": 0.8590400218963623
+    "building_id": 602,
+    "latitude": -6.231208659466947,
+    "longitude": 106.85527962903052,
+    "confidence": 0.8590401411056519
   },
   {
-    "building_id": 170,
-    "latitude": -6.230953021979037,
-    "longitude": 106.85558779895018,
-    "confidence": 0.856541633605957
+    "building_id": 603,
+    "latitude": -6.230953014716683,
+    "longitude": 106.8555877835206,
+    "confidence": 0.85648512840271
   },
   {
-    "building_id": 171,
-    "latitude": -6.230685367621983,
-    "longitude": 106.85458727605749,
-    "confidence": 0.8562498688697815
+    "building_id": 604,
+    "latitude": -6.231013619766262,
+    "longitude": 106.85462809219644,
+    "confidence": 0.8555228114128113
   },
   {
-    "building_id": 172,
-    "latitude": -6.231013561169039,
-    "longitude": 106.85462809451906,
-    "confidence": 0.8559726476669312
+    "building_id": 605,
+    "latitude": -6.230685367358799,
+    "longitude": 106.85458728216588,
+    "confidence": 0.8549258708953857
   },
   {
-    "building_id": 173,
-    "latitude": -6.230849490171652,
-    "longitude": 106.8557496680296,
-    "confidence": 0.854343056678772
+    "building_id": 606,
+    "latitude": -6.230849500032789,
+    "longitude": 106.85574966790682,
+    "confidence": 0.8541092276573181
   },
   {
-    "building_id": 174,
-    "latitude": -6.231162934938421,
-    "longitude": 106.85487719167668,
-    "confidence": 0.853996753692627
+    "building_id": 607,
+    "latitude": -6.231162934165398,
+    "longitude": 106.85487718498507,
+    "confidence": 0.8539845943450928
   },
   {
-    "building_id": 175,
-    "latitude": -6.230871628565435,
-    "longitude": 106.85442508638204,
-    "confidence": 0.8500149250030518
+    "building_id": 608,
+    "latitude": -6.231186254802136,
+    "longitude": 106.85463910630574,
+    "confidence": 0.8504355549812317
   },
   {
-    "building_id": 176,
-    "latitude": -6.231186327710467,
-    "longitude": 106.85463911324291,
-    "confidence": 0.8491325974464417
+    "building_id": 609,
+    "latitude": -6.230871621430224,
+    "longitude": 106.85442508649714,
+    "confidence": 0.8498983383178711
   },
   {
-    "building_id": 177,
-    "latitude": -6.231200177953815,
-    "longitude": 106.85444610832462,
-    "confidence": 0.8471410274505615
+    "building_id": 610,
+    "latitude": -6.231200323404305,
+    "longitude": 106.85444610843717,
+    "confidence": 0.846677303314209
   },
   {
-    "building_id": 178,
-    "latitude": -6.2313417685961925,
-    "longitude": 106.85444103373095,
-    "confidence": 0.8448187708854675
+    "building_id": 611,
+    "latitude": -6.231341769511616,
+    "longitude": 106.85444103372942,
+    "confidence": 0.844749391078949
   },
   {
-    "building_id": 179,
-    "latitude": -6.232000459801549,
-    "longitude": 106.8551209785528,
-    "confidence": 0.8438469171524048
+    "building_id": 612,
+    "latitude": -6.23200045943538,
+    "longitude": 106.8551209774887,
+    "confidence": 0.8438856601715088
   },
   {
-    "building_id": 180,
-    "latitude": -6.2311542565077005,
-    "longitude": 106.85503107613386,
-    "confidence": 0.8401944637298584
+    "building_id": 613,
+    "latitude": -6.231154223938995,
+    "longitude": 106.85503108106559,
+    "confidence": 0.8405205607414246
   },
   {
-    "building_id": 181,
-    "latitude": -6.231459098767887,
-    "longitude": 106.85535739176885,
-    "confidence": 0.8399802446365356
+    "building_id": 614,
+    "latitude": -6.231459093844947,
+    "longitude": 106.85535740887644,
+    "confidence": 0.8401792049407959
   },
   {
-    "building_id": 182,
-    "latitude": -6.2319987136633115,
-    "longitude": 106.85444468155833,
-    "confidence": 0.8396891355514526
+    "building_id": 615,
+    "latitude": -6.231998713785368,
+    "longitude": 106.85444468368348,
+    "confidence": 0.8396223187446594
   },
   {
-    "building_id": 183,
-    "latitude": -6.2307056690210665,
-    "longitude": 106.85441837496725,
-    "confidence": 0.82950758934021
+    "building_id": 616,
+    "latitude": -6.231192133748264,
+    "longitude": 106.85454762453446,
+    "confidence": 0.8232998847961426
   },
   {
-    "building_id": 184,
-    "latitude": -6.231192145079163,
-    "longitude": 106.85454762526604,
-    "confidence": 0.8233588337898254
+    "building_id": 617,
+    "latitude": -6.231721651185765,
+    "longitude": 106.85519634107095,
+    "confidence": 0.8206608295440674
   },
   {
-    "building_id": 185,
-    "latitude": -6.231721650900967,
-    "longitude": 106.85519634045704,
-    "confidence": 0.8206543326377869
-  },
-  {
-    "building_id": 186,
-    "latitude": -6.231940808825824,
+    "building_id": 618,
+    "latitude": -6.231940806506753,
     "longitude": 106.85572697914267,
-    "confidence": 0.8165575861930847
+    "confidence": 0.8165113925933838
   },
   {
-    "building_id": 187,
-    "latitude": -6.230984437759512,
+    "building_id": 619,
+    "latitude": -6.230984439681899,
     "longitude": 106.85572043614229,
-    "confidence": 0.8161288499832153
+    "confidence": 0.8161054253578186
   },
   {
-    "building_id": 188,
-    "latitude": -6.231154706305716,
-    "longitude": 106.85495402890638,
-    "confidence": 0.812515377998352
+    "building_id": 620,
+    "latitude": -6.230705724451942,
+    "longitude": 106.85441836955846,
+    "confidence": 0.8137382864952087
   },
   {
-    "building_id": 189,
-    "latitude": -6.231790481613213,
-    "longitude": 106.8557567339576,
-    "confidence": 0.803145706653595
+    "building_id": 621,
+    "latitude": -6.231154696093668,
+    "longitude": 106.85495402718743,
+    "confidence": 0.8126862645149231
   },
   {
-    "building_id": 190,
-    "latitude": -6.231577611706363,
-    "longitude": 106.85527127634941,
-    "confidence": 0.795601487159729
+    "building_id": 622,
+    "latitude": -6.231790490197843,
+    "longitude": 106.85575673412131,
+    "confidence": 0.8024675250053406
   },
   {
-    "building_id": 191,
-    "latitude": -6.2306986681858,
-    "longitude": 106.8544914949797,
-    "confidence": 0.7945448756217957
+    "building_id": 623,
+    "latitude": -6.230698589703563,
+    "longitude": 106.85449148589385,
+    "confidence": 0.7959612011909485
   },
   {
-    "building_id": 192,
-    "latitude": -6.231627650337153,
-    "longitude": 106.85523798685153,
-    "confidence": 0.7862104177474976
+    "building_id": 624,
+    "latitude": -6.231577608817695,
+    "longitude": 106.85527126615852,
+    "confidence": 0.7956766486167908
   },
   {
-    "building_id": 193,
-    "latitude": -6.232021357395839,
-    "longitude": 106.85521971864091,
-    "confidence": 0.4536190330982208
+    "building_id": 625,
+    "latitude": -6.231627649848928,
+    "longitude": 106.85523798533723,
+    "confidence": 0.7862106561660767
+  },
+  {
+    "building_id": 626,
+    "latitude": -6.232021356622816,
+    "longitude": 106.85521970505306,
+    "confidence": 0.4537137448787689
   }
 ]
