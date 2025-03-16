@@ -6,4 +6,6 @@ requests>=2.23.0
 matplotlib>=3.2.2
 pillow>=7.1.2
 geopy>=2.1.0
-tqdm>=4.64.0 
+tqdm>=4.64.0
+shapely>=1.7.0
+mercantile>=1.2.1 
