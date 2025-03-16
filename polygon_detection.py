@@ -14,6 +14,7 @@ import sys
 import matplotlib.colors as mcolors
 from matplotlib.collections import PatchCollection
 from detection import load_model, detect_buildings, visualize_detections
+import tempfile
 
 def load_geojson(geojson_path):
     """
@@ -118,26 +119,18 @@ def get_tiles_for_polygon(polygon, zoom=18):
     
     return intersecting_tiles
 
-def download_tile(tile, output_dir):
+def get_tile_image(tile):
     """
-    Download an OSM tile
+    Get an OSM tile image
     
     Args:
         tile: A mercantile Tile object
-        output_dir: Directory to save the tile
         
     Returns:
-        Path to the downloaded tile
+        PIL Image object of the tile
     """
     # Create URL for the tile
     url = f"https://tile.openstreetmap.org/{tile.z}/{tile.x}/{tile.y}.png"
-    
-    # Create filename
-    filename = f"{output_dir}/tile_{tile.z}_{tile.x}_{tile.y}.png"
-    
-    # Check if file already exists
-    if os.path.exists(filename):
-        return filename
     
     # Download tile
     headers = {'User-Agent': 'BuildingDetectionBot/1.0'}
@@ -146,10 +139,7 @@ def download_tile(tile, output_dir):
     if response.status_code == 200:
         # Convert response to RGB image
         img = Image.open(BytesIO(response.content)).convert('RGB')
-        
-        # Save image
-        img.save(filename)
-        return filename
+        return img
     else:
         raise Exception(f"Failed to download tile: {response.status_code}")
 
@@ -170,13 +160,12 @@ def process_tile_detections(results):
     
     return boxes, confidences, class_ids
 
-def create_stitched_image(tiles_dir, tile_detections):
+def create_stitched_image(tile_detections):
     """
-    Create a stitched image from individual tile images
+    Create a stitched image from individual tile images stored in memory
     
     Args:
-        tiles_dir: Directory containing the original tile images
-        tile_detections: List of tile detection results with bounds information
+        tile_detections: List of tile detection results with bounds information and images
         
     Returns:
         Tuple of (stitched_image, transform_params)
@@ -218,18 +207,12 @@ def create_stitched_image(tiles_dir, tile_detections):
         # Get the tile bounds
         west, south, east, north = td['bounds']
         
-        # Get the tile name
-        tile_parts = td['tile'].split('/')
-        tile_filename = f"tile_{tile_parts[0]}_{tile_parts[1]}_{tile_parts[2]}.png"
-        tile_path = os.path.join(tiles_dir, tile_filename)
-        
-        # Check if the tile image exists
-        if not os.path.exists(tile_path):
-            print(f"Warning: Tile image {tile_path} not found, skipping")
+        # Get the tile image from memory
+        if 'image' not in td or td['image'] is None:
+            print(f"Warning: Tile image for {td['tile']} not found, skipping")
             continue
         
-        # Load the tile image
-        tile_image = Image.open(tile_path)
+        tile_image = td['image']
         
         # Calculate the position in the stitched image
         x_pos = int((west - min_west) / width_deg * width_px)
@@ -250,7 +233,7 @@ def create_stitched_image(tiles_dir, tile_detections):
     
     return stitched_image, transform_params
 
-def visualize_polygon_detections(geojson_path, results_data, output_path=None, tiles_dir=None):
+def visualize_polygon_detections(geojson_path, results_data, output_path=None):
     """
     Visualize all building detections across the entire GeoJSON area on a single map
     
@@ -258,7 +241,6 @@ def visualize_polygon_detections(geojson_path, results_data, output_path=None, t
         geojson_path: Path to the GeoJSON file
         results_data: Detection results from detect_buildings_in_polygon
         output_path: Path to save the visualization (optional)
-        tiles_dir: Directory containing the original tile images (optional)
         
     Returns:
         None
@@ -275,11 +257,11 @@ def visualize_polygon_detections(geojson_path, results_data, output_path=None, t
     # Set bounds based on polygon
     minx, miny, maxx, maxy = polygon.bounds
     
-    # If tiles_dir is provided, create a stitched image as background
-    if tiles_dir and os.path.exists(tiles_dir):
+    # Create a stitched image as background if images are available
+    if 'detections' in results_data and results_data['detections'] and 'image' in results_data['detections'][0]:
         try:
-            # Create stitched image from tiles
-            stitched_image, transform_params = create_stitched_image(tiles_dir, results_data['detections'])
+            # Create stitched image from in-memory tiles
+            stitched_image, transform_params = create_stitched_image(results_data['detections'])
             
             # Display the stitched image as background
             ax.imshow(stitched_image, extent=[
@@ -442,10 +424,6 @@ def detect_buildings_in_polygon(model, geojson_path, output_dir="polygon_detecti
     # Create output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
     
-    # Create a directory for tiles
-    tiles_dir = os.path.join(output_dir, "tiles")
-    os.makedirs(tiles_dir, exist_ok=True)
-    
     # Load GeoJSON
     geojson_data = load_geojson(geojson_path)
     
@@ -462,52 +440,76 @@ def detect_buildings_in_polygon(model, geojson_path, output_dir="polygon_detecti
     
     for tile in tqdm(tiles, desc="Processing tiles"):
         try:
-            # Download tile
-            tile_path = download_tile(tile, tiles_dir)
+            # Get tile image (in memory)
+            tile_image = get_tile_image(tile)
             
-            # Detect buildings
-            results, img = detect_buildings(model, tile_path, conf=conf)
+            # Create a temporary file for detection
+            with tempfile.NamedTemporaryFile(suffix='.png', delete=False) as temp_file:
+                temp_path = temp_file.name
+                # Save the image to the temporary file
+                tile_image.save(temp_path, format='PNG')
             
-            # Process detection results without saving individual images
-            boxes, confidences, class_ids = process_tile_detections(results)
-            
-            # Add to results
-            tile_bounds = get_tile_bounds(tile)
-            tile_detections = {
-                'tile': f"{tile.z}/{tile.x}/{tile.y}",
-                'bounds': tile_bounds,
-                'detections': len(boxes),
-                'boxes': boxes.tolist() if len(boxes) > 0 else [],
-                'confidences': confidences.tolist() if len(confidences) > 0 else [],
-                'class_ids': class_ids.tolist() if len(class_ids) > 0 else []
-            }
-            all_detections.append(tile_detections)
-            total_buildings += len(boxes)
+            try:
+                # Detect buildings using the temporary file path
+                results, img = detect_buildings(model, temp_path, conf=conf)
+                
+                # Process detection results
+                boxes, confidences, class_ids = process_tile_detections(results)
+                
+                # Add to results
+                tile_bounds = get_tile_bounds(tile)
+                tile_detections = {
+                    'tile': f"{tile.z}/{tile.x}/{tile.y}",
+                    'bounds': tile_bounds,
+                    'detections': len(boxes),
+                    'boxes': boxes.tolist() if len(boxes) > 0 else [],
+                    'confidences': confidences.tolist() if len(confidences) > 0 else [],
+                    'class_ids': class_ids.tolist() if len(class_ids) > 0 else [],
+                    'image': tile_image  # Store the image in memory
+                }
+                all_detections.append(tile_detections)
+                total_buildings += len(boxes)
+            finally:
+                # Clean up the temporary file
+                if os.path.exists(temp_path):
+                    os.unlink(temp_path)
             
         except Exception as e:
             print(f"Error processing tile {tile}: {e}")
     
-    # Save results to JSON
+    # Save results to JSON (without images)
     results_path = os.path.join(output_dir, "detection_results.json")
+    
+    # Create a copy of the results without the images for JSON serialization
+    json_results = {
+        'total_buildings': total_buildings,
+        'total_tiles': len(tiles),
+        'zoom': zoom,
+        'confidence_threshold': conf,
+        'detections': [{k: v for k, v in d.items() if k != 'image'} for d in all_detections]
+    }
+    
+    with open(results_path, 'w') as f:
+        json.dump(json_results, f, indent=2)
+    
+    print(f"Detection results saved to {results_path}")
+    print(f"Total buildings detected: {total_buildings}")
+    
+    # Create a visualization of all detections with in-memory images
+    visualization_path = os.path.join(output_dir, "polygon_visualization.png")
+    
+    # Create results_data with images for visualization
     results_data = {
         'total_buildings': total_buildings,
         'total_tiles': len(tiles),
         'zoom': zoom,
         'confidence_threshold': conf,
-        'detections': all_detections
+        'detections': all_detections  # This includes the images
     }
     
-    with open(results_path, 'w') as f:
-        json.dump(results_data, f, indent=2)
+    visualize_polygon_detections(geojson_path, results_data, visualization_path)
     
-    print(f"Detection results saved to {results_path}")
-    print(f"Total buildings detected: {total_buildings}")
-    
-    # Create a visualization of all detections
-    visualization_path = os.path.join(output_dir, "polygon_visualization.png")
-    visualize_polygon_detections(geojson_path, results_data, visualization_path, tiles_dir=tiles_dir)
-    
-    return results_data
+    return json_results
 
 def create_example_geojson(output_path="example_area.geojson"):
     """
