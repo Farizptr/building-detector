@@ -13,3 +13,4 @@ __pycache__/
 *.pickle
 *.pickle
 .DS_Store
+polygon_detection_results/
