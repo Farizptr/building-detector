@@ -13,7 +13,7 @@ from io import BytesIO
 import sys
 import matplotlib.colors as mcolors
 from matplotlib.collections import PatchCollection
-from detection import load_model, detect_buildings, visualize_detections
+from detection import load_model, detect_buildings
 import tempfile
 
 def load_geojson(geojson_path):
