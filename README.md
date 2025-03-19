@@ -30,7 +30,7 @@ from detection import load_model, detect_buildings, visualize_detections
 model = load_model("best.pt")
 
 # Detect buildings
-results, img = detect_buildings(model, "path/to/image.jpg", conf=0.25)
+results, img = detect_buildings(model, "path/to/image.jpg", conf=0.9)
 
 # Visualize detections
 boxes, confidences, class_ids = visualize_detections(img, results, "output.jpg")
@@ -45,7 +45,7 @@ from detection import load_model, process_tiles
 model = load_model("best.pt")
 
 # Process tiles
-results = process_tiles(model, "path/to/tiles", "detection_results", conf=0.25)
+results = process_tiles(model, "path/to/tiles", "detection_results", conf=0.9)
 ```
 
 ### Detecting Buildings in a GeoJSON Polygon
@@ -57,7 +57,7 @@ from polygon_detection import load_model, detect_buildings_in_polygon
 model = load_model("best.pt")
 
 # Detect buildings in polygon
-results = detect_buildings_in_polygon(model, "path/to/polygon.geojson", "polygon_detection_results", zoom=18, conf=0.25)
+results = detect_buildings_in_polygon(model, "path/to/polygon.geojson", "polygon_detection_results", zoom=18, conf=0.9)
 ```
 
 ### Visualizing All Detections in a GeoJSON Area

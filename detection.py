@@ -28,7 +28,7 @@ def load_model(model_path="best.pt"):
         print(f"Error loading model: {e}")
         raise
 
-def detect_buildings(model, image_path, conf=0.25):
+def detect_buildings(model, image_path, conf=0.9):
     """
     Detect buildings in an image using the loaded YOLOv8 model
     

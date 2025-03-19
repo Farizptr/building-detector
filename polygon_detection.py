@@ -61,7 +61,7 @@ def create_batches(items, batch_size):
     """Split a list of items into batches of the specified size"""
     return [items[i:i + batch_size] for i in range(0, len(items), batch_size)]
 
-def detect_buildings_in_polygon(model, geojson_path, output_dir="polygon_detection_results", zoom=18, conf=0.25, batch_size=5):
+def detect_buildings_in_polygon(model, geojson_path, output_dir="polygon_detection_results", zoom=18, conf=0.9, batch_size=5):
     """
     Detect buildings within a polygon defined in a GeoJSON file using optimized batch processing with 2 workers
     
@@ -204,7 +204,7 @@ if __name__ == "__main__":
     
     # Detect buildings in the polygon with optimized batch processing
     results = detect_buildings_in_polygon(
-        model, geojson_path, output_dir, zoom=18, conf=0.25, batch_size=batch_size
+        model, geojson_path, output_dir, zoom=18, conf=0.9, batch_size=batch_size
     )
     
     print("\nDetection Summary:")
