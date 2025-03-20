@@ -218,6 +218,9 @@ def is_building_at_edge(box, buffer_percent=5, boundary_edges=None):
     """
     # Assuming 256x256 pixel tiles
     tile_size = 256
+    
+    # For buffer_percent = 0, we'll check if the building touches the edge exactly
+    # For buffer_percent > 0, we'll use the buffer zone
     buffer = int(tile_size * (buffer_percent / 100))
     
     x1, y1, x2, y2 = box
@@ -226,22 +229,40 @@ def is_building_at_edge(box, buffer_percent=5, boundary_edges=None):
     if boundary_edges is None:
         boundary_edges = []
     
-    # Check if building touches each edge buffer zone, but ignore boundary edges
-    # Left edge
-    if 'left' not in boundary_edges and x1 < buffer:
-        return True
-    
-    # Top edge
-    if 'top' not in boundary_edges and y1 < buffer:
-        return True
-    
-    # Right edge
-    if 'right' not in boundary_edges and x2 > (tile_size - buffer):
-        return True
-    
-    # Bottom edge
-    if 'bottom' not in boundary_edges and y2 > (tile_size - buffer):
-        return True
+    # Special handling for zero buffer - check if building exactly touches the edge
+    if buffer_percent == 0:
+        # Left edge
+        if 'left' not in boundary_edges and x1 <= 0:
+            return True
+        
+        # Top edge
+        if 'top' not in boundary_edges and y1 <= 0:
+            return True
+        
+        # Right edge
+        if 'right' not in boundary_edges and x2 >= tile_size:
+            return True
+        
+        # Bottom edge
+        if 'bottom' not in boundary_edges and y2 >= tile_size:
+            return True
+    else:
+        # Regular buffer zone checking
+        # Left edge
+        if 'left' not in boundary_edges and x1 < buffer:
+            return True
+        
+        # Top edge
+        if 'top' not in boundary_edges and y1 < buffer:
+            return True
+        
+        # Right edge
+        if 'right' not in boundary_edges and x2 > (tile_size - buffer):
+            return True
+        
+        # Bottom edge
+        if 'bottom' not in boundary_edges and y2 > (tile_size - buffer):
+            return True
     
     return False
 
