@@ -257,7 +257,7 @@ if __name__ == "__main__":
         geojson_path = sys.argv[1]
     else:
         print("No GeoJSON file provided, creating an example...")
-        geojson_path = create_example_geojson()
+        geojson_path = "buildings.geojson"
     
     # Output directory
     output_dir = "polygon_detection_results"
